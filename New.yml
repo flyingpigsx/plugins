@@ -1,0 +1,57 @@
+Needler:
+    Item_Information:
+        Item_Name: "&f&lNeedler&f"
+        Item_Type: 359
+        Enchantment_To_Check: DURABILITY-13
+        Item_Lore: "&eDual wield assault weapon that Explodes on hit"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Dual_Wield: true
+        Delay_Between_Shots: 3
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Remove_Arrows_On_Impact: true
+        Projectile_Speed: 40
+        Projectile_Damage: 40
+        Bullet_Spread: 0.8
+        Sounds_Shoot: ENTITY_IRONGOLEM_DEATH-1-1.8-0,ENTITY_IRONGOLEM_DEATH-1-1.85-0,ENTITY_IRONGOLEM_DEATH-1-1.9-0,GLASS-1-2-0
+    Particles:
+        Enable: true
+        Particle_Terrain: true
+        Particle_Impact_Anything: BLOCK_BREAK-90
+        Particle_Hit: FLAMES-1
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.2
+    Reload:
+        Enable: true
+        Reload_Amount: 20
+        Reload_Duration: 10
+        Sounds_Reloading: PORTAL_TRAVEL-1-2-30
+        Take_Ammo_On_Reload: true
+        Take_Ammo_As_Magazine: false
+    Explosions:
+        Enable: true
+        Knockback: 1
+        Damage_Multiplier: 35
+        Enable_Owner_Immunity: false
+        Explosion_No_Damage: false
+        Explosion_No_Grief: true
+        Explosion_Radius: 2
+        Explosion_Incendiary: false
+        Explosion_Delay: 10
+        On_Impact_With_Anything: false
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Take_Ammo_Per_Shot: false
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0

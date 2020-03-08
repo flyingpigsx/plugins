@@ -1,0 +1,5093 @@
+GoldBuster:
+    Item_Information:
+        Item_Name: "&eGold Buster"
+        Item_Type: 371
+        Item_Lore: "&cUpgraded RayGun |This is a very high damage."
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Delay_Between_Shots: 0.1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Subtype: 50-1-NONE-3      
+        Projectile_Subtype: 266
+        Projectile_Speed: 10
+        Projectile_Damage: 30
+        Projectile_Incendiary:
+            Enable: false
+            Duration: 150
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 1
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: false
+    Reload:
+        Enable: true
+        Reload_Amount: 50
+        Reload_Duration: 40
+        Sounds_Reloading: ENTITY_ZOMBIE_UNFECT-1-1-10,ENTITY_ZOMBIE_UNFECT-1-0-20,ENTITY_ZOMBIE_INFECT-1-1-35
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK-BREAK-103
+        Particle_Hit: block_break-152, block_break-152, FLAMES-10
+        Particle_Impact_Anything: block_break-152, block_break-152
+    Hit_Events:
+        Enable: true
+        Sounds_Impact: ENTITY_ZOMBIE_REMEDY-1-2-0
+        Sounds_Victim: ENTITY_ZOMBIE_METAL-1-2-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+Snowblower:
+    Item_Information:
+        Item_Name: "&bSnow Blower"
+        Item_Type: 79
+        Item_Lore: "&cBlow past your snow away! Freeze enemies! | &b&nFound in the Christmas Crate"
+        Sounds_Acquired: BLOCK-BREAK-79
+    Shooting:
+        Right_Click_To_Shoot: true
+        Delay_Between_Shots: 4
+        Projectile_Amount: 3
+        Projectile_Type: snowball
+        Projectile_Speed: 20
+        Bullet_Spread: 4
+        Projectile_Damage: 20
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 1
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Reload:
+        Enable: true
+        Reload_Amount: 50
+        Reload_Duration: 40
+        Sounds_Reloading: BLOCK-BREAK-79
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK-BREAK-79
+        Particle_Hit: block_break-79, block_break-79
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: SLOW-60-20
+    Hit_Events:
+        Enable: true
+        Sounds_Impact: BLOCK-BREAK-79
+        Sounds_Victim: BLOCK-BREAK-79
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+
+Lover:
+    Item_Information:
+        Item_Name: "&dLover"
+        Item_Type: 38
+        Item_Lore: "&cMake your crush|&eFall in love with you"
+        Sounds_Acquired: BLOCK-BREAK-79
+    Shooting:
+        Right_Click_To_Shoot: true
+        Delay_Between_Shots: 4
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 20
+        Bullet_Spread: 1
+        Projectile_Damage: 43
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 1
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Custom_Death_Message:
+        Normal: " "
+    Reload:
+        Enable: true
+        Reload_Amount: 50
+        Reload_Duration: 40
+        Sounds_Reloading: BLOCK-BREAK-79
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-38
+        Particle_Hit: block_break-38
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: SLOW-60-20
+    Hit_Events:
+        Enable: true
+        Sounds_Impact: BLOCK-BREAK-79
+        Sounds_Victim: BLOCK-BREAK-79
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+
+SoulLover:
+    Item_Information:
+        Item_Name: "&dLover &6&o- Soulbound"
+        Item_Type: 38
+        Item_Lore: "&cMake your crush|&eFall in love with you"
+        Sounds_Acquired: BLOCK-BREAK-79
+    Shooting:
+        Right_Click_To_Shoot: true
+        Delay_Between_Shots: 4
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 20
+        Bullet_Spread: 1
+        Projectile_Damage: 43
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 1
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+    Custom_Death_Message:
+        Normal: " "
+    Reload:
+        Enable: true
+        Reload_Amount: 50
+        Reload_Duration: 40
+        Sounds_Reloading: BLOCK-BREAK-79
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-38
+        Particle_Hit: block_break-38
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: SLOW-60-20
+    Hit_Events:
+        Enable: true
+        Sounds_Impact: BLOCK-BREAK-79
+        Sounds_Victim: BLOCK-BREAK-79
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+Scattergun:
+    Item_Information:
+        Item_Name: "&aScattergun" 
+        Item_Type: 351~3
+        Item_Lore: "&bStock scattergun"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 12
+        Projectile_Amount: 10
+        Projectile_Type: egg
+        Projectile_Speed: 25
+        Projectile_Damage: 7
+        Bullet_Spread: 1.7
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_SKELETON_HURT-2-2-0,ENTITY_ZOMBIE_WOODBREAK-1-2-0,EXPLODE-2-2-0,ENTITY_GHAST_SHOOT-2-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 6
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 16
+        Reload_Bullets_Individually: true
+        Sounds_Reloading:  BLOCK_NOTE_HAT-2-1-0, BLOCK_NOTE_SNARE-2-6-1
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 10
+        Close_Duration: 15
+        Sound_Open: BLOCK_DOOR_OPEN-2-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+        No_Vertical_Recoil: true
+        Knockback: 0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 12
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter:  BLOCK_NOTE_BASS-2-2-0, BLOCK_NOTE_HAT-2-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Take_Ammo_Per_Shot: false
+        Sounds_Out_Of_Ammo:  BLOCK_NOTE_HAT-2-2-0
+        Sounds_Shoot_With_No_Ammo: BLOCK_NOTE_HAT-2-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-77
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+        
+Force-A-Nature:
+    Item_Information:
+        Item_Name: "&aForce-A-Nature"
+        Item_Type: 351~3
+        Item_Lore: "&a+ High knockback to victim and shooter|&a+ 50% faster firing speed|&a+ 20% more pellets per shot|&c- 66% smaller clip size|&c- Deals 10% less damage per pellet"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 12
+        Recoil_Amount: 10
+        Projectile_Amount: 12
+        Projectile_Type: egg
+        Projectile_Speed: 25
+        Projectile_Damage: 5
+        Bullet_Spread: 1.7
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_SKELETON_HURT-2-2-0,ENTITY_ZOMBIE_WOODBREAK-1-2-0,EXPLODE-2-2-0,ENTITY_GHAST_SHOOT-2-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Reload_Bullets_Individually: true
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 24
+        Sounds_Reloading:  BLOCK_NOTE_BASS-2-1-0, BLOCK_NOTE_SNARE-2-6-1
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 10
+        Close_Duration: 15
+        Sound_Open: BLOCK_DOOR_OPEN-2-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+        No_Vertical_Recoil: true
+        Knockback: 5
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 12
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter:  BLOCK_NOTE_HAT-2-2-0, BLOCK_NOTE_SNARE-2-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Take_Ammo_Per_Shot: false
+        Sounds_Out_Of_Ammo:  BLOCK_NOTE_BASS-2-2-0
+        Sounds_Shoot_With_No_Ammo:  BLOCK_NOTE_SNARE-2-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-77       
+
+Shortstop:
+    Item_Information:
+        Item_Name: "&aShortstop"
+        Item_Type: 351~8
+        Item_Lore: "&a+ 42% faster firing speed|&a+ Deals 100% more damage per pellet|&a+ Clip-based reload|&c- 60% fewer pellets per shot|&c- 33% smaller clip size"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 8
+        Projectile_Amount: 4
+        Projectile_Type: egg
+        Projectile_Speed: 25
+        Projectile_Damage: 14
+        Bullet_Spread: 1.7
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_SKELETON_HURT-2-2-0,ENTITY_ZOMBIE_WOODBREAK-1-2-0,EXPLODE-2-2-0,ENTITY_GHAST_SHOOT-2-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 4
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 24
+        Sounds_Reloading:  BLOCK_NOTE_HAT-2-1-0, BLOCK_NOTE_SNARE-2-6-1
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 10
+        Close_Duration: 15
+        Sound_Open: BLOCK_DOOR_OPEN-2-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+        No_Vertical_Recoil: true
+        Knockback: 0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 22
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter:  BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Take_Ammo_Per_Shot: false
+        Sounds_Out_Of_Ammo:  BLOCK_NOTE_BASS-2-2-0
+        Sounds_Shoot_With_No_Ammo:  BLOCK_NOTE_HAT-2-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-77        
+
+SodaPopper:
+    Item_Information:
+        Item_Name: "&aSoda Popper"
+        Item_Type: 351~3
+        Item_Lore: "&a+ Confuses victim|&a+ 25% faster reload speed|&a+ 50% faster firing speed|&c- 66% smaller clip size |&c- No random Critical Hits"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 6
+        Projectile_Amount: 10
+        Projectile_Type: egg
+        Projectile_Speed: 25
+        Projectile_Damage: 7
+        Bullet_Spread: 1.7
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_SKELETON_HURT-2-2-0,ENTITY_ZOMBIE_WOODBREAK-1-2-0,EXPLODE-2-2-0,GHAST_SHOOT-2-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Reload_Bullets_Individually: true
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 16
+        Sounds_Reloading: BLOCK_NOTE_HAT-2-1-0,NOTE_SNARE_DRUM-2-6-1
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 10
+        Close_Duration: 15
+        Sound_Open: BLOCK_DOOR_OPEN-2-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+        Knockback: 0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Take_Ammo_Per_Shot: false
+        Sounds_Out_Of_Ammo:  BLOCK_NOTE_BASS-2-2-0
+        Sounds_Shoot_With_No_Ammo:  BLOCK_NOTE_SNARE-2-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-77
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: CONFUSION-120-4
+    Fireworks:
+        Enable: true
+        Firework_Hit: STAR-TRUE-FALSE-200-10-200
+        
+BabyFacesBlaster:
+    Item_Information:
+        Item_Name: "&aBaby Face's Blaster"
+        Item_Type: 351~3
+        Item_Lore: "&a+ Speeds up shooter on hit|&a+ 40% more accurate|&c- -30% damage penalty. |&c- No random Critical Hits"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 12
+        Projectile_Amount: 10
+        Projectile_Type: egg
+        Projectile_Speed: 25
+        Projectile_Damage: 5
+        Bullet_Spread: 1
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_SKELETON_HURT-2-2-0,ENTITY_ZOMBIE_WOODBREAK-1-2-0,EXPLODE-2-2-0,ENTITY_GHAST_SHOOT-2-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 6
+        Reload_Bullets_Individually: true
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 16
+        Sounds_Reloading:  BLOCK_NOTE_HAT-2-1-0, BLOCK_NOTE_SNARE-2-6-1
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 10
+        Close_Duration: 15
+        Sound_Open: BLOCK_DOOR_OPEN-2-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+        Knockback: 0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 7
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Take_Ammo_Per_Shot: false
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_BASS-2-2-0
+        Sounds_Shoot_With_No_Ammo: BLOCK_NOTE_HAT-2-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-77
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Shooter: SPEED-1200-6
+        
+Glock:
+    Item_Information:
+        Item_Name: "&5Glock-18 | Fade &b"
+        Item_Type: 2262
+        Item_Lore: "&dFade"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+        Enchantment_To_Check: THORNS-1
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 3
+        Projectile_Amount: 1
+        Projectile_Type: Snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 27
+        Bullet_Spread: 0.4
+        Sounds_Shoot: ENTITY_IRONGOLEM_HIT-2-2-0,ENTITY_SKELETON_HURT-2-2-0,ZOMBIE_WOOD-1-2-0,EXPLODE-2-2-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_BASS-2-2-0
+        Sounds_Shoot_With_No_Ammo: BLOCK_NOTE_HAT-2-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 20
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 23
+        Sounds_Reloading: BLOCK_FIRE_IGNITE-2-1-4,BLOCK_DOOR_OPEN-2-2-6,BLOCK_FIRE_IGNITE-2-1-22,ENTITY_HURT_FLESH-2-0-23,BLOCK_DOOR_CLOSE-2-2-24
+    Firearm_Action:
+        Type: slide
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: BLOCK_DOOR_OPEN-2-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+
+Winger:
+    Item_Information:
+        Item_Name: "&bWinger"
+        Item_Type: 351~11
+        Item_Lore: "&a+ 15% more damage|&c- 60% smaller clip size"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 3
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 40
+        Projectile_Damage: 18
+        Bullet_Spread: 0.9
+        Sounds_Shoot: ENTITY_IRONGOLEM_HIT-2-2-0,ENTITY_SKELETON_HURT-2-2-0,ENTITY_ZOMBIE_WOOD-1-2-0,EXPLODE-2-2-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 362
+        Take_Ammo_Per_Shot: true
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_BASS-2-2-0
+        Sounds_Shoot_With_No_Ammo: BLOCK_NOTE_HAT-2-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 5
+        Reload_Duration: 23
+        Sounds_Reloading: BLOCK_FIRE_IGNITE-2-1-4,BLOCK_DOOR_OPEN-2-2-6,BLOCK_FIRE_IGNITE-2-1-22,ENTITY_HURT_FLESH-2-0-23,DOOR_CLOSE-2-2-24
+    Firearm_Action:
+        Type: slide
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: BLOCK_DOOR_OPEN-2-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 34
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-140
+        
+PrettyBoysPocketPistol:
+    Item_Information:
+        Item_Name: "&bPretty Boy's Pocket Pistol"
+        Item_Type: 351~11
+        Item_Lore: "&a+ 25% health on hit|&a+ Holder never takes falling damage|&c- 25% slower firing speed"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 5
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 40
+        Projectile_Damage: 16
+        Bullet_Spread: 0.9
+        Sounds_Shoot: ENTITY_IRONGOLEM_HIT-2-2-0,ENTITY_SKELETON_HURT-2-2-0,ENTITY_ZOMBIE_WOOD-1-2-0,EXPLODE-2-2-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 362
+        Take_Ammo_Per_Shot: true
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_BASS-2-2-0
+        Sounds_Shoot_With_No_Ammo: BLOCK_NOTE_HAT-2-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 12
+        Reload_Duration: 23
+        Sounds_Reloading: BLOCK_FIRE_IGNITE-2-1-4,BLOCK_DOOR_OPEN-2-2-6,BLOCK_FIRE_IGNITE-2-1-22,ENTITY_HURT_FLESH-2-0-23,BLOCK_DOOR_CLOSE-2-2-24
+    Firearm_Action:
+        Type: slide
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: BLOCK_DOOR_OPEN-2-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+        Hurt_Effect: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 29
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-140
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Shooter: HEAL-20-1
+        
+Bonk!AtomicPunch:
+    Item_Information:
+        Item_Name: "&bBonk! Atomic Punch"
+        Item_Type: 374
+        Item_Lore: "&9(i) When used, the player is immune to all damage. |&9Knockback still affects the player.|&9(i) The effect lasts 8 seconds and then has to |&9recharge for about 60 seconds in order to be used again.|&c(i) User is vulnerable while recharging"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 0
+        Sounds_Shoot: DRINK-2-0-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: DAMAGE_RESISTANCE-160-100
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Duration: 1200
+        Sounds_Reloading: BLOCK_FIRE_IGNITE-2-1-4,BLOCK_DOOR_OPEN-2-2-6,BLOCK_FIRE_IGNITE-2-1-36,ENTITY_HURT_FLESH-2-0-37,BLOCK_DOOR_CLOSE-2-2-38
+    Firearm_Action:
+        Type: slide
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: BLOCK_DOOR_OPEN-2-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-2-2-0
+        
+Bat:
+    Item_Information:
+        Item_Name: "&9Bat"
+        Item_Type: 280
+        Item_Lore: "&9Stock"
+        Melee_Mode: true
+        Sounds_Acquired: ENTITY_ARROW_SHOOT-1-0-0
+    Shooting:
+        Delay_Between_Shots: 2
+        Projectile_Damage: 20
+        Sounds_Shoot: ENTITY_HURT_FLESH-1-0-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 15
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-55
+        
+HolyMackerel:
+    Item_Information:
+        Item_Name: "&9Holy Mackerel"
+        Item_Type: 350
+        Item_Lore: "&a+  Kills are labeled as FISH-KILL! in the death-notice area."
+        Melee_Mode: true
+        Sounds_Acquired: ENTITY_ARROW_SHOOT-1-0-0
+    Shooting:
+        Delay_Between_Shots: 2
+        Projectile_Damage: 20
+        Sounds_Shoot: ENTITY_HURT_FLESH-1-0-0
+    Fireworks:
+        Enable: true
+        Firework_Hit: CREEPER-TRUE-FALSE-10-255-10
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-79
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 15
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-55
+        
+Three-RuneBlade:
+    Item_Information:
+        Item_Name: "&9Three-Rune Blade"
+        Item_Type: 267
+        Item_Lore: "&a+ On hit: causes bleed to enemy for 5 seconds"
+        Melee_Mode: true
+        Sounds_Acquired: ENTITY_ARROW_SHOOT-1-0-0
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: WITHER-100-1
+    Shooting:
+        Delay_Between_Shots: 2
+        Projectile_Damage: 20
+        Sounds_Shoot: ENTITY_IRONGOLEM_HIT-2-2-0,ENTITY_SKELETON_HURT-2-2-0,ENTITY_ZOMBIE_WOOD-1-2-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 8
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+
+Sun-on-a-Stick:
+    Item_Information:
+        Item_Name: "&9Sun-on-a-Stick"
+        Item_Type: 369
+        Item_Lore: "&a+ On hit: causes fire to enemy for 5 seconds|&c- Deals 25% less damage."
+        Melee_Mode: true
+        Sounds_Acquired: ENTITY_ARROW_SHOOT-1-0-0
+    Shooting:
+        Delay_Between_Shots: 2
+        Projectile_Damage: 15
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 100
+        Sounds_Shoot: ENTITY_BLAZE_HIT-1-0-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 15
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+
+#-----------------------------
+#
+#        Soldier
+#
+#-----------------------------
+
+RocketLauncher3:
+    Item_Information:
+        Item_Name: "&4Rocket Launcher 3"
+        Item_Type: 351
+        Item_Lore: "&4Stock Rocket Launcher"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Recoil_Amount: 10
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 30
+        Projectile_Damage: 35
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_BLAZE_HIT-2-1-0,EXPLODE-2-50-0
+    Reload:
+        Enable: true
+        Reload_Amount: 50
+        Reload_Bullets_Individually: true
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 25
+        Sounds_Reloading: BLOCK_NOTE_HAT-2-1-0
+    Firearm_Action:
+        Type: bolt
+        Open_Duration: 0.1
+        Close_Duration: 0.1
+        Sound_Open: BLOCK_NOTE_HAT-2-0-0,BLOCK_PISTON_RETRACT-2-2-2
+        Sound_Close: BLOCK_PISTON_EXTEND-2-2-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_BASS-2-2-0
+        Sounds_Shoot_With_No_Ammo: BLOCK_NOTE_HAT-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 3
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: flames-1
+        Particle_Impact_Anything: flames-1
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 8
+        On_Impact_With_Anything: true
+        Enable_Owner_Immunity: true
+        Knockback: 10
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 29
+        Chance: 10
+        Message_Shooter: "&aCROCKET!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0      
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+
+RocketLauncher2:
+    Item_Information:
+        Item_Name: "&4Rocket Launcher"
+        Item_Type: 351
+        Item_Lore: "&4Stock Rocket Launcher"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Recoil_Amount: 10
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 30
+        Projectile_Damage: 35
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_BLAZE_HIT-2-1-0,EXPLODE-2-50-0
+    Reload:
+        Enable: true
+        Reload_Amount: 4
+        Reload_Bullets_Individually: true
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 25
+        Sounds_Reloading: BLOCK_NOTE_HAT-2-1-0
+    Firearm_Action:
+        Type: bolt
+        Open_Duration: 8
+        Close_Duration: 7
+        Sound_Open: BLOCK_NOTE_HAT-2-0-0,BLOCK_PISTON_RETRACT-2-2-2
+        Sound_Close: BLOCK_PISTON_EXTEND-2-2-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_BASS-2-2-0
+        Sounds_Shoot_With_No_Ammo: BLOCK_NOTE_HAT-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 3
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: flames-1
+        Particle_Impact_Anything: flames-1
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 8
+        On_Impact_With_Anything: true
+        Enable_Owner_Immunity: true
+        Knockback: 10
+    Shrapnel:
+        Enable: true
+        Block_Type: 77
+        Amount: 14
+        Speed: 20
+        Place_Blocks: false
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 29
+        Chance: 10
+        Message_Shooter: "&aCROCKET!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0      
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+
+DirectHit:
+    Item_Information:
+        Item_Name: "&4Direct Hit"
+        Item_Type: 351
+        Item_Lore: "&a+ 80% faster rocket speed|&a+ Deals 25% more damage|&c- 70% smaller splash damage radius"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Recoil_Amount: 10
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 55
+        Projectile_Damage: 30
+        Bullet_Spread: 0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_BLAZE_HIT-2-1-0,EXPLODE-2-50-0
+    Reload:
+        Enable: true
+        Reload_Amount: 4
+        Reload_Bullets_Individually: true
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 25
+        Sounds_Reloading: BLOCK_NOTE_HAT-2-1-0
+    Firearm_Action:
+        Type: bolt
+        Open_Duration: 8
+        Close_Duration: 7
+        Sound_Open: BLOCK_NOTE_HAT-2-0-0,BLOCK_PISTON_RETRACT-2-2-2
+        Sound_Close: BLOCK_PISTON_EXTEND-2-2-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_BASS-2-2-0
+        Sounds_Shoot_With_No_Ammo: BLOCK_NOTE_HAT-2-2-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 3
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: flames-1
+        Particle_Impact_Anything: flames-1
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 3
+        On_Impact_With_Anything: true
+        Enable_Owner_Immunity: true
+        Knockback: 10
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 40
+        Chance: 10
+        Message_Shooter: "&aCROCKET!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+
+BlackBox:
+    Item_Information:
+        Item_Name: "&4Black Box"
+        Item_Type: 351
+        Item_Lore: "&a+ On hit: restores health points|&c- 25% smaller clip size"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Recoil_Amount: 10
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 30
+        Projectile_Damage: 20
+        Bullet_Spread: 0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_BLAZE_HIT-2-1-0,EXPLODE-2-50-0
+    Reload:
+        Enable: true
+        Reload_Amount: 3
+        Reload_Bullets_Individually: true
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 25
+        Sounds_Reloading: BLOCK_NOTE_HAT-2-1-0
+    Firearm_Action:
+        Type: bolt
+        Open_Duration: 8
+        Close_Duration: 7
+        Sound_Open: BLOCK_NOTE_HAT-2-0-0,BLOCK_PISTON_RETRACT-2-2-2
+        Sound_Close: BLOCK_PISTON_EXTEND-2-2-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_BASS-2-2-0
+        Sounds_Shoot_With_No_Ammo: BLOCK_NOTE_HAT-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 3
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: flames-1
+        Particle_Impact_Anything: flames-1
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 8
+        On_Impact_With_Anything: true
+        Enable_Owner_Immunity: true
+        Knockback: 10
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Shooter: HEAL-20-1
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 29
+        Chance: 10
+        Message_Shooter: "&aCROCKET!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0      
+        
+LibertyLauncher:
+    Item_Information:
+        Item_Name: "&4Liberty Launcher"
+        Item_Type: 351~2
+        Item_Lore: "&a+ 40% faster rocket speed|&c- 25% smaller clip size"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Recoil_Amount: 10
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 42
+        Projectile_Damage: 50
+        Bullet_Spread: 0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_BLAZE_HIT-2-1-0,EXPLODE-2-50-0
+    Reload:
+        Enable: true
+        Reload_Amount: 3
+        Reload_Bullets_Individually: true
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 25
+        Sounds_Reloading: BLOCK_NOTE_HAT-2-1-0
+    Firearm_Action:
+        Type: bolt
+        Open_Duration: 8
+        Close_Duration: 7
+        Sound_Open: BLOCK_NOTE_HAT-2-0-0,BLOCK_PISTON_RETRACT-2-2-2
+        Sound_Close: BLOCK_PISTON_EXTEND-2-2-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_BASS-2-2-0
+        Sounds_Shoot_With_No_Ammo: BLOCK_NOTE_HAT-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 3
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: flames-1
+        Particle_Impact_Anything: flames-1
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 8
+        On_Impact_With_Anything: true
+        Enable_Owner_Immunity: true
+        Knockback: 10
+    Shrapnel:
+        Enable: true
+        Block_Type: 77
+        Amount: 14
+        Speed: 20
+        Place_Blocks: false
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 29
+        Chance: 10
+        Message_Shooter: "&aCROCKET!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0      
+    Fireworks:
+        Enable: true
+        Firework_Hit: STAR-TRUE-FALSE-0-0-255
+        Firework_Explode: BALL_LARGE-TRUE-FALSE-255-0-0
+        Firework_Shoot: BURST-TRUE-FALSE-10-0-10
+        Firework_Critical: BALL_LARGE-TRUE-FALSE-255-0-0
+
+Bazooka:
+    Item_Information:
+        Item_Name: "&eBazooka"
+        Item_Type: 25565
+        Item_Lore: "&eRecoil&f: &c2|&eProjectile Type&f: &cFireball|&eReload Duration&f: &c55 ticks|&eAttachments&f:|"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+        Inventory_Control: Group_Bazookas
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: fireball
+        Projectile_Speed: 10
+        Sounds_Shoot: ENTITY_ZOMBIE_WOOD-1-0-0,BLOCK_FIRE_EXTINGUISH-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+    Abilities:
+        No_Fall_Damage: true
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Duration: 55
+        Sounds_Reloading: ENTITY_SKELETON_IDLE-1-0-10,BLOCK_PISTON_EXTEND-1-0-28,ENTITY_SKELETON_WALK-1-0-48
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-35
+    Shrapnel:
+        Enable: true
+        Block_Type: 77
+        Amount: 14
+        Speed: 7
+    Explosions:
+        Enable: true
+        Knockback: 5
+        Damage_Multiplier: 500
+        Explosion_No_Grief: true
+        Explosion_Radius: 6
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+
+SoulBazooka:
+    Item_Information:
+        Item_Name: "&eBazooka &b&o- Soulbounded"
+        Item_Type: 2256
+        Item_Lore: "&eRecoil&f: &c2|&eProjectile Type&f: &cFireball|&eReload Duration&f: &c55 ticks|&eSoulbound"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: fireball
+        Projectile_Speed: 10
+        Sounds_Shoot: ENTITY_ZOMBIE_WOOD-1-0-0,BLOCK_FIRE_EXTINGUISH-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+    Abilities:
+        No_Fall_Damage: true
+        Death_No_Drop: true
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Duration: 55
+        Sounds_Reloading: BLOCK_ANVIL_LAND_IDLE-1-0-10,BLOCK_PISTON_EXTEND-1-0-28,ENTITY_SKELETON_WALK-1-0-48
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-35
+    Shrapnel:
+        Enable: true
+        Block_Type: 77
+        Amount: 14
+        Speed: 7
+    Explosions:
+        Enable: true
+        Knockback: 5
+        Damage_Multiplier: 250
+        Explosion_No_Grief: true
+        Explosion_Radius: 6
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+
+BeggarsBazooka:
+    Item_Information:
+        Item_Name: "&4Beggar's Bazooka"
+        Item_Type: 351
+        Item_Lore: "&a+ Fires 3 rockets per shot|&c- +2 degrees random projectile deviation|&c- 30% slower reload time|&c- Shooter is vulnerable to explosions|&c- Occasionally misfires"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Recoil_Amount: 10
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 30
+        Projectile_Damage: 50
+        Bullet_Spread: 2
+        Sounds_Shoot: ENTITY_BLAZE_HIT-2-1-0,EXPLODE-2-50-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 6
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Bullets_Individually: true
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 33
+        Sounds_Reloading: BLOCK_NOTE_HAT-2-1-0
+    Firearm_Action:
+        Type: bolt
+        Open_Duration: 8
+        Close_Duration: 7
+        Sound_Open: BLOCK_NOTE_HAT-2-0-0,BLOCK_PISTON_RETRACT-2-2-2
+        Sound_Close: BLOCK_PISTON_EXTEND-2-2-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_BASS-2-2-0
+        Sounds_Shoot_With_No_Ammo: BLOCK_NOTE_HAT-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 3
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: flames-2
+        Particle_Impact_Anything: flames-1
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 8
+        On_Impact_With_Anything: true
+        Knockback: 10
+    Shrapnel:
+        Enable: true
+        Block_Type: 77
+        Amount: 14
+        Speed: 20
+        Place_Blocks: false
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 29
+        Chance: 10
+        Message_Shooter: "&aCROCKET!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+
+Shotgun2:
+    Item_Information:
+        Item_Name: "&6Shotgun"
+        Item_Type: 351~10
+        Item_Lore: "&6Stock Shotgun"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 12
+        Projectile_Amount: 10
+        Projectile_Type: egg
+        Projectile_Speed: 35
+        Projectile_Damage: 6
+        Bullet_Spread: 1.7
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_ZOMBIE_WOOD-1-1-0,EXPLODE-2-2-0,ENTITY_GHAST_SHOOT-2-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 6
+        Take_Ammo_On_Reload: true
+        Reload_Bullets_Individually: true
+        Reload_Duration: 15
+        Sounds_Reloading: BLOCK_NOTE_HAT-2-1-0,BLOCK_NOTE_SNARE-2-6-1
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 8
+        Close_Duration: 6
+        Sound_Open: BLOCK_DOOR_OPEN-2-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 1
+        No_Vertical_Recoil: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Take_Ammo_Per_Shot: false
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_BASS-2-2-0
+        Sounds_Shoot_With_No_Ammo: BLOCK_NOTE_HAT-2-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-77,flames-1
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 10
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+        
+ReserveShooter:
+    Item_Information:
+        Item_Name: "&6Reserve Shooter"
+        Item_Type: 351~10
+        Item_Lore: "&a+ Deals 15% more damage per pellet|&c- 50% smaller clip size"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 12
+        Projectile_Amount: 10
+        Projectile_Type: egg
+        Projectile_Speed: 35
+        Projectile_Damage: 8
+        Bullet_Spread: 1.7
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_ZOMBIE_WOOD-1-1-0,EXPLODE-2-2-0,ENTITY_GHAST_SHOOT-2-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 3
+        Take_Ammo_On_Reload: true
+        Reload_Bullets_Individually: true
+        Reload_Duration: 15
+        Sounds_Reloading: BLOCK_NOTE_HAT-2-1-0,NOTE_SNARE_DRUM-2-6-1
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 8
+        Close_Duration: 6
+        Sound_Open: BLOCK_DOOR_OPEN-2-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 1
+        No_Vertical_Recoil: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Take_Ammo_Per_Shot: false
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_BASS-2-2-0
+        Sounds_Shoot_With_No_Ammo: BLOCK_NOTE_HAT-2-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-77,flames-1
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 10
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+ 
+RighteousBison:
+    Item_Information:
+        Item_Name: "&6Righteous Bison"
+        Item_Type: 351~15
+        Item_Lore: "&9(i) Shoots an electric projectile instead of shotgun pellets|&9(i) May hit target players multiple times|&a+ Does not use ammo|&c- 33% smaller clip size"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 30
+        Projectile_Amount: 1
+        Recoil_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 40
+        Projectile_Damage: 6
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_CAT_HISS-2-2-0,ENTITY_GHAST_SHOOT-2-2-0,BLOCK_WATER-1-2-0,ENTITY_WITHER_HURT-2-2-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 10
+        Delay_Between_Shots_In_Burst: 1
+    Reload:
+        Enable: true
+        Reload_Amount: 4
+        Reload_Bullets_Individually: true
+        Reload_Duration: 23
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: BLOCK_FUSE-2-2-4,ENTITY_WITHER_SHOOT-2-2-6,BLOCK_FUSE-2-2-22,ENTITY_HURT_FLESH-2-0-23,ENTITY_WITHER_SHOOT-1-2-24
+    Firearm_Action:
+        Type: bolt
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: BLOCK_DOOR_OPEN-2-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 10
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-57, block_break-22
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+
+Shovel:
+    Item_Information:
+        Item_Name: "&7Shovel"
+        Item_Type: 256
+        Item_Lore: "&7Stock"
+        Melee_Mode: true
+        Sounds_Acquired: ENTITY_ARROW_SHOOT-1-0-0
+    Shooting:
+        Delay_Between_Shots: 2
+        Projectile_Damage: 40
+        Sounds_Shoot: ENTITY_HURT_FLESH-1-0-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 25
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-55
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+        
+Equalizer:
+    Item_Information:
+        Item_Name: "&7Equalizer"
+        Item_Type: 257
+        Item_Lore: "&a+ Deals 50% more damage"
+        Melee_Mode: true
+        Sounds_Acquired: ENTITY_ARROW_SHOOT-1-0-0
+    Shooting:
+        Delay_Between_Shots: 2
+        Projectile_Damage: 68
+        Sounds_Shoot: ENTITY_HURT_FLESH-1-0-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 38
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-55
+ 
+EscapePlan:
+    Item_Information:
+        Item_Name: "&7Escape Plan"
+        Item_Type: 257
+        Item_Lore: "&a+ On hit: Movement speed increases"
+        Melee_Mode: true
+        Sounds_Acquired: ENTITY_ARROW_SHOOT-1-0-0
+    Shooting:
+        Delay_Between_Shots: 2
+        Projectile_Damage: 45
+        Sounds_Shoot: ENTITY_HURT_FLESH-1-0-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 25
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-55
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Shooter: SPEED-120-6
+
+Excalibur:
+    Item_Information:
+        Item_Name: "&bExcalibur"
+        Item_Type: 276
+        Item_Lore: "&bExcalbiur III"
+        Melee_Mode: true
+        Sounds_Acquired: ENTITY_ARROW_SHOOT-1-0-0
+        Attachments:
+            Type: main
+            Info: "Pull"
+            Toggle_Delay: 5
+            Sounds_Toggle: BLOCK_NOTE_HAT-1-2-0
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Delay_Between_Shots: 0
+        Projectile_Damage: 45
+        Sounds_Shoot: ENTITY_HURT_FLESH-1-0-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Abilities:
+        Death_No_Drop: true
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 250
+        Chance: 100
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-55
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Shooter: SPEED-9000-3,INCREASE_DAMAGE-900-3,HEALTH_BOOST-1000-10,REGENERATION-1000-5
+        
+#-----------------------------
+#
+#            Pyro 
+#
+#-----------------------------
+
+FlareGun:
+    Item_Information:
+        Item_Name: "&6Flare Gun"
+        Item_Type: 351~15
+        Item_Lore: "&9(i) On hit: ignites enemy"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 3
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 30
+        Projectile_Damage: 30
+        Bullet_Spread: 0
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 120
+        Sounds_Shoot: ENTITY_ZOMBIE_WOOD-1-2-0,EXPLODE-2-2-0,BLOCK_FIRE_IGNITE-2-2-0,ENTITY_GHAST_SHOOT-2-1-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_BASS-2-2-0
+        Sounds_Shoot_With_No_Ammo: BLOCK_NOTE_HAT-2-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 23
+        Sounds_Reloading: BLOCK_FIRE_IGNITE-2-1-4,BLOCK_DOOR_OPEN-2-2-6,BLOCK_FIRE_IGNITE-2-1-22,ENTITY_HURT_FLESH-2-0-23,DOOR_CLOSE-2-2-24
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: BLOCK_DOOR_OPEN-2-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 90
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: flames-1,BLOCK_BREAK-51
+        Particle_Player_Hit: flames-1,BLOCK_BREAK-51
+
+Manmelter:
+    Item_Information:
+        Item_Name: "&6Manmelter"
+        Item_Type: 351~15
+        Item_Lore: "&9(i) On hit: ignites enemy|&a+ Does not require ammo|&a+ +50% projectile speed|&c- 20% slower firing rate|&c Does not get random Critical hits"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 3
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 60
+        Projectile_Damage: 30
+        Bullet_Spread: 0
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 120
+        Sounds_Shoot: ENTITY_ZOMBIE_WOOD-1-2-0,EXPLODE-2-2-0,BLOCK_FIRE_IGNITE-2-2-0,ENTITY_GHAST_FIREBALL-2-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 28
+        Sounds_Reloading: BLOCK_FIRE_IGNITE-2-1-4,BLOCK_DOOR_OPEN-2-2-6,BLOCK_FIRE_IGNITE-2-1-22,ENTITY_HURT_FLESH-2-0-23,BLOCK_DOOR_CLOSE-2-2-24
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: BLOCK_DOOR_OPEN-2-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: flames-1,BLOCK_BREAK-51
+        Particle_Player_Hit: flames-1,BLOCK_BREAK-51
+
+ScorchShot:
+    Item_Information:
+        Item_Name: "&6Scorch Shot"
+        Item_Type: 351~15
+        Item_Lore: "&9(i) On hit: ignites enemy|&a+ Flare knocks back target on hit|&c- -50% damage penalty"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 3
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 30
+        Projectile_Damage: 15
+        Bullet_Spread: 0
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 120
+        Sounds_Shoot: ENTITY_ZOMBIE_WOOD-1-2-0,EXPLODE-2-2-0,BLOCK_FIRE_IGNITE-2-2-0,ENTITY_GHAST_FIREBALL-2-1-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_BASS-2-2-0
+        Sounds_Shoot_With_No_Ammo: BLOCK_NOTE_HAT-2-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Duration: 23
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: BLOCK_FIRE_IGNITE-2-1-4,DOOR_OPEN-2-2-6,BLOCK_FIRE_IGNITE-2-1-22,HURT_FLESH-2-0-23,DOOR_CLOSE-2-2-24
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: BLOCK_DOOR_OPEN-2-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 6
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 45
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: flames-1,BLOCK_BREAK-51
+        Particle_Player_Hit: flames-1,BLOCK_BREAK-51
+        
+FireAxe:
+    Item_Information:
+        Item_Name: "&eFire Axe"
+        Item_Type: 258
+        Item_Lore: "&eStock"
+        Melee_Mode: true
+        Sounds_Acquired: ENTITY_ARROW_SHOOT-1-0-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Delay_Between_Shots: 2
+        Projectile_Damage: 40
+        Sounds_Shoot: ENTITY_HURT_FLESH-1-0-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 30
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-55
+
+BackScratcher:
+    Item_Information:
+        Item_Name: "&eBack Scratcher"
+        Item_Type: 293
+        Item_Lore: "&a+ Deals 25% more damage"
+        Melee_Mode: true
+        Sounds_Acquired: ENTITY_ARROW_SHOOT-1-0-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Delay_Between_Shots: 2
+        Projectile_Damage: 50
+        Sounds_Shoot: ENTITY_HURT_FLESH-1-0-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 40
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-55
+        
+SharpenedVolcanoFragment:
+    Item_Information:
+        Item_Name: "&eSharpened Volcano Fragment"
+        Item_Type: 258
+        Item_Lore: "&a+ On Hit: target is engulfed in flames|&c- Deals 20% less damage"
+        Melee_Mode: true
+        Sounds_Acquired: ENTITY_ARROW_SHOOT-1-0-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Delay_Between_Shots: 2
+        Projectile_Damage: 32
+        Sounds_Shoot: HURT_FLESH-1-0-0
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 120
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 20
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-55
+   
+NeonAnnihilator:
+    Item_Information:
+        Item_Name: "&eNeon Annihilator"
+        Item_Type: 369
+        Item_Lore: "&a+ Summons lightning on hit|&c- -20% damage penalty vs. players|&c- No random critical hits|&c- May cause self-damage"
+        Melee_Mode: true
+        Sounds_Acquired: ENTITY_ARROW_SHOOT-1-0-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Delay_Between_Shots: 5
+        Projectile_Damage: 40
+        Sounds_Shoot: ENTITY_HURT_FLESH-1-0-0
+    Lightning:
+        Enable: true
+    Abilities:
+        Super_Effective: PLAYER-0.80 
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-55
+
+#-----------------------------
+#
+#          Demoman 
+#
+#-----------------------------
+
+GrenadeLauncher:
+    Item_Information:
+        Item_Name: "&5Grenade Launcher"
+        Item_Type: 351~13
+        Item_Lore: "&5Stock Grenade Launcher"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 12
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 17
+        Projectile_Damage: 40
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_IRONGOLEM_HIT-2-5-0,ENTITY_ZOMBIE_METAL-2-5-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_BASS-2-2-0
+        Sounds_Shoot_With_No_Ammo: BLOCK_NOTE_HAT-2-2-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Explosion_Delay: 40
+        On_Impact_With_Anything: true
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 40
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+    Reload:
+        Enable: true
+        Reload_Amount: 4
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 40
+        Sounds_Reloading: LEVEL_UP-2-2-10,BLOCK_FIRE_IGNITE-2-2-38
+    Firearm_Action:
+        Type: slide
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: BLOCK_DOOR_OPEN-2-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+
+EasterLauncher:
+    Item_Information:
+        Item_Name: "&dEaster &aLauncher"
+        Item_Type: 359
+        Item_Lore: "&5Stock Grenade Launcher"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 12
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 17
+        Projectile_Damage: 70
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_IRONGOLEM_HIT-2-5-0,ENTITY_ZOMBIE_METAL-2-5-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_BASS-2-2-0
+        Sounds_Shoot_With_No_Ammo: BLOCK_NOTE_HAT-2-2-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Explosion_Delay: 40
+        On_Impact_With_Anything: true
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 40
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+    Reload:
+        Enable: true
+        Reload_Amount: 4
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 40
+        Sounds_Reloading: LEVEL_UP-2-2-10,BLOCK_FIRE_IGNITE-2-2-38
+    Firearm_Action:
+        Type: slide
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: BLOCK_DOOR_OPEN-2-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+   
+Loch-n-Load:
+    Item_Information:
+        Item_Name: "&5Loch-n-Load"
+        Item_Type: 351~13
+        Item_Lore: "&9(i) Grenades explode on contact with anything|&a+ Deals 20% more damage|&a+ 25% faster grenade travel speed|&c- 50% smaller clip size"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 12
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 22
+        Projectile_Damage: 48
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_IRONGOLEM_HIT-2-5-0,ENTITY_ZOMBIE_METAL-2-5-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_BASS-2-2-0
+        Sounds_Shoot_With_No_Ammo: BLOCK_NOTE_HAT-2-2-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        On_Impact_With_Anything: true
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 48
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 40
+        Sounds_Reloading: LEVEL_UP-2-2-10,BLOCK_FIRE_IGNITE-2-2-38
+    Firearm_Action:
+        Type: slide
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: BLOCK_DOOR_OPEN-2-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+
+LooseCannon:
+    Item_Information:
+        Item_Name: "&5Loose Cannon"
+        Item_Type: 351~13
+        Item_Lore: "&9(i) Cannonballs have a fuse time of 1 second|&a+ 50% faster projectile speed|&a+ Cannonballs have high explosion knockback|&c- Cannonballs do not damage players on hit"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 12
+        Projectile_Amount: 1
+        Projectile_Type: grenade
+        Projectile_Subtype: 122
+        Projectile_Speed: 34
+        Projectile_Damage: 40
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_IRONGOLEM_HIT-2-5-0,ENTITY_ZOMBIE_METAL-2-5-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_BASS-2-2-0
+        Sounds_Shoot_With_No_Ammo: BLOCK_NOTE_HAT-2-2-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Knockback: 4
+        Explosion_Delay: 40
+        On_Impact_With_Anything: true
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 40
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+    Reload:
+        Enable: true
+        Reload_Amount: 4
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 40
+        Sounds_Reloading: LEVEL_UP-2-2-10,BLOCK_FIRE_IGNITE-2-2-38
+    Firearm_Action:
+        Type: slide
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: BLOCK_DOOR_OPEN-2-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+
+Stickybomb:
+    Item_Information:
+        Item_Name: "&dStickybomb"
+        Item_Type: 368
+        Item_Lore: "&9(i)Left-click to set the owner.|&9(i)Explodes when picked up|&dStock Stickybomb"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Explosive_Devices:
+        Enable: true
+        Device_Type: trap
+        Device_Info: true-true-true-false-false
+        Sounds_Deploy: ITEM_PICKUP-2-0-0
+        Sounds_Trigger: AMBIENCE_THUNDER-2-1-0
+    Explosions:
+        Enable: true
+        Damage_Multiplier: 100
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Explosion_Delay: 1
+        Sounds_Explode: ENTITY_WITHER_SHOOT-2-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+        
+CharginTarge:
+    Item_Information:
+        Item_Name: "&dChargin' Targe"
+        Item_Type: 276
+        Item_Lore: "&9(i) Makes the user charge forward at |&9high speed, damagingenemies in his path"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 120
+        Projectile_Amount: 1
+        Recoil_Amount: -60
+        Projectile_Type: energy
+        Projectile_Subtype: 30-1-NONE-1
+        Projectile_Speed: 40
+        Projectile_Damage: 25
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_GHAST_SCREAM-2-0-0,
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Duration: 120
+    Firearm_Action:
+        Type: slide
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: BLOCK_DOOR_OPEN-2-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 50
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+
+Dasher:
+    Item_Information:
+        Item_Name: "&dDasher"
+        Item_Type: 276
+        Item_Lore: "&9(i) Makes the user charge forward at |&9high speed, damagingenemies in his path"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 30
+        Projectile_Amount: 1
+        Recoil_Amount: -60
+        Projectile_Type: energy
+        Projectile_Subtype: 30-1-NONE-1
+        Projectile_Speed: 40
+        Projectile_Damage: 25
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_GHAST_SCREAM-2-0-0,
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Duration: 60
+    Firearm_Action:
+        Type: slide
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: BLOCK_DOOR_OPEN-2-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 50
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+
+Bottle:
+    Item_Information:
+        Item_Name: "&8Bottle"
+        Item_Type: 374
+        Item_Lore: "&8Stock"
+        Melee_Mode: true
+        Sounds_Acquired: ENTITY_ARROW_SHOOT-1-0-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Delay_Between_Shots: 2
+        Projectile_Damage: 40
+        Sounds_Shoot: HURT_FLESH-1-0-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 30
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-55
+        
+ScotsmansSkullcutter:
+    Item_Information:
+        Item_Name: "&8Scotsman's Skullcutter"
+        Item_Type: 258
+        Item_Lore: "&a+ Deals 20% more damage|&c- Lowers speed by 15% on wearer"
+        Melee_Mode: true
+        Sounds_Acquired: ENTITY_ARROW_SHOOT-1-0-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Delay_Between_Shots: 2
+        Projectile_Damage: 48
+        Sounds_Shoot: HURT_FLESH-1-0-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 30
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-55
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Shooter: SLOW-1200-1
+
+UllapoolCaber:
+    Item_Information:
+        Item_Name: "&8Ullapool Caber"
+        Item_Type: 396
+        Item_Lore: "&9(i) The initial hit against an enemy or a solid object triggers|&9an explosion that damages the user, who will also be propelled in |&9the air, and every enemy standing in the explosion radius|&c- No random Critical hits"
+        Melee_Mode: true
+        Sounds_Acquired: ENTITY_ARROW_SHOOT-1-0-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Delay_Between_Shots: 2
+        Projectile_Damage: 40
+        Sounds_Shoot: HURT_FLESH-1-0-0
+    Explosions:
+        Enable: true
+        Damage_Multiplier: 100
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Knockback: 10
+        Explosion_Delay: 1
+        Sounds_Explode: WITHER_SHOOT-2-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-55
+        
+Half-Zatoichi:
+    Item_Information:
+        Item_Name: "&8Half-Zatoichi"
+        Item_Type: 267
+        Item_Lore: "&a+ On hit: restores the player's health"
+        Melee_Mode: true
+        Sounds_Acquired: ENTITY_ARROW_SHOOT-1-0-0
+    Shooting:
+        Delay_Between_Shots: 2
+        Projectile_Damage: 40
+        Sounds_Shoot: HURT_FLESH-1-0-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 30
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Shooter: HEAL-10-1
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-55
+
+EHalf-Zatoichi:
+    Item_Information:
+        Item_Name: "&8EHalf-Zatoichi"
+        Item_Type: 267
+        Item_Lore: "&a+ On hit: restores the player's health"
+        Melee_Mode: true
+        Sounds_Acquired: ENTITY_ARROW_SHOOT-1-0-0
+    Shooting:
+        Delay_Between_Shots: 2
+        Projectile_Damage: 40
+        Sounds_Shoot: HURT_FLESH-1-0-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 30
+        Chance: 10
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Abilities:
+        Death_No_Drop: true
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Shooter: HEAL-10-1
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-55
+FlamingSchee:
+    Item_Information:
+        Item_Name: "&a[&cFlaming &bSchee&a]"
+        Item_Type: 380
+        Item_Lore: "&bSuper Flaming Fast Shooting | Dominate your enemies"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+        Attachments:
+            Type: main
+            Info: "Egg"
+            Toggle_Delay: 5
+            Sounds_Toggle: BLOCK_NOTE_HAT-1-2-0
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Left_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 12
+        Recoil_Amount: 1
+        Projectile_Amount: 4
+        Projectile_Type: snowball
+        Projectile_Speed: 100
+        Projectile_Damage: 30
+        Bullet_Spread: 0.1
+        Sounds_Shoot: ENTITY_IRONGOLEM_HIT-1-2-0,ENTITY_SKELETON_HURT-1-2-0,ENTITY_ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Take_Ammo_Per_Shot: false
+        Sounds_Out_Of_Ammo: ENTITY_ARROW_SHOOT-1-2-0
+        Sounds_Shoot_With_No_Ammo: ENTITY_IRONGOLEM_THROW-1-2-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 4
+        Delay_Between_Shots_In_Burst: 2
+    Reload:
+        Enable: true
+        Reload_Amount: 60
+        Take_Ammo_On_Reload: True
+        Take_Ammo_As_Magazine: true
+        Reload_Bullets_Individually: false
+        Reload_Duration: 3
+        Sounds_Reloading: BLOCK_ANVIL_LAND_IDLE-1-0-0,BLOCK_FIRE_IGNITE-1-1-14,DOOR_OPEN-1-2-16,BLOCK_FIRE_IGNITE-1-1-26,HURT_FLESH-1-0-27,BLOCK_DOOR_CLOSE-1-2-28
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Critical: BLOCK_BREAK-55
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Delay: 0.0
+        Explosion_Damage: 250
+        Knockback: 1
+        Explosion_Radius: 1
+        On_Impact_With_Anything: false
+        Enable_Owner_Immunity: true
+EFlamingSchee:
+    Item_Information:
+        Item_Name: "&a[&cSoulFlaming &bSchee&a]"
+        Item_Type: 380
+        Item_Lore: "&bSuper Flaming Fast Shooting | Dominate your enemies"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+        Attachments:
+            Type: main
+            Info: "Egg"
+            Toggle_Delay: 5
+            Sounds_Toggle: BLOCK_NOTE_HAT-1-2-0
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Left_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 12
+        Recoil_Amount: 1
+        Projectile_Amount: 4
+        Projectile_Type: snowball
+        Projectile_Speed: 100
+        Projectile_Damage: 30
+        Bullet_Spread: 0.1
+        Sounds_Shoot: ENTITY_IRONGOLEM_HIT-1-2-0,ENTITY_SKELETON_HURT-1-2-0,ENTITY_ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Take_Ammo_Per_Shot: false
+        Sounds_Out_Of_Ammo: ENTITY_ARROW_SHOOT-1-2-0
+        Sounds_Shoot_With_No_Ammo: ENTITY_IRONGOLEM_THROW-1-2-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 4
+        Delay_Between_Shots_In_Burst: 2
+    Reload:
+        Enable: true
+        Reload_Amount: 60
+        Take_Ammo_On_Reload: True
+        Take_Ammo_As_Magazine: true
+        Reload_Bullets_Individually: false
+        Reload_Duration: 3
+        Sounds_Reloading: BLOCK_ANVIL_LAND_IDLE-1-0-0,BLOCK_FIRE_IGNITE-1-1-14,DOOR_OPEN-1-2-16,BLOCK_FIRE_IGNITE-1-1-26,HURT_FLESH-1-0-27,BLOCK_DOOR_CLOSE-1-2-28
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Critical: BLOCK_BREAK-55
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Delay: 0.0
+        Explosion_Damage: 250
+        Knockback: 1
+        Explosion_Radius: 1
+        On_Impact_With_Anything: false
+        Enable_Owner_Immunity: true
+Schee:
+    Item_Information:
+        Item_Name: "&bSchee"
+        Item_Type: 122
+        Skip_Name_Check: true
+        Item_Lore: "&aSuper Fast. Ultra Aim. Kills your opponent quickly :D"
+        Attachments:
+            Type: main
+            Info: "Egg"
+            Toggle_Delay: 2
+            Sounds_Toggle: BLOCK_NOTE_HAT-1-2-0
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 80
+        Projectile_Damage: 24
+        Bullet_Spread: 0.1
+        Sounds_Shoot: ENTITY_BLAZE_HURT-1-2-0,ENTITY_ZOMBIE_HURT-1-2-0
+        Remove_Bullet_Drop: true
+        Removal_Or_Drag_Delay: 14-true
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_BASS-1-2-0
+        Sounds_Shoot_With_No_Ammo: BLOCK_NOTE_HAT-1-2-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 5
+        Delay_Between_Shots_In_Burst: 3
+    Reload:
+        Enable: true
+        Reload_Amount: 50
+        Reload_Duration: 2
+        Sounds_Reloading: BLOCK_ANVIL_LAND_IDLE-1-0-0,BLOCK_FIRE_IGNITE-1-1-14,DOOR_OPEN-1-2-16,BLOCK_FIRE_IGNITE-1-1-26,HURT_FLESH-1-0-27,DOOR_CLOSE-1-2-28
+        Take_Ammo_On_Reload: true
+        Take_Ammo_As_Magazine: true
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 8
+        Sound_Close: BLOCK_CLICK-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Critical: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 3
+        Chance: 25
+        Sounds_Shooter: ORB_PICKUP-1-2-0
+TheHunter:
+    Item_Information:
+        Item_Name: "&cThe Hunter"
+        Item_Type: 46
+        Item_Lore: "&bHunters custom gun"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Left_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 25
+        Projectile_Damage: 15
+        Bullet_Spread: 0.1
+        Sounds_Shoot: ENTITY_IRONGOLEM_HIT-1-2-0,ENTITY_SKELETON_HURT-1-2-0,ENTITY_ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Take_Ammo_Per_Shot: false
+        Sounds_Out_Of_Ammo: ENTITY_ARROW_SHOOT-1-2-0
+        Sounds_Shoot_With_No_Ammo: ENTITY_IRONGOLEM_THROW-1-2-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 6
+        Delay_Between_Shots_In_Burst: 2
+    Reload:
+        Enable: true
+        Reload_Amount: 100
+        Take_Ammo_On_Reload: True
+        Take_Ammo_As_Magazine: true
+        Reload_Bullets_Individually: false
+        Reload_Duration: 3
+        Sounds_Reloading: BLOCK_ANVIL_LAND_IDLE-1-0-0,BLOCK_FIRE_IGNITE-1-1-14,DOOR_OPEN-1-2-16,BLOCK_FIRE_IGNITE-1-1-26,HURT_FLESH-1-0-27,BLOCK_DOOR_CLOSE-1-2-28
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Critical: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 2
+        Chance: 10
+        Sounds_Shooter: ORB_PICKUP-1-2-0
+SantaSniper:
+    Item_Information:
+        Item_Name: "&cS&aa&cn&at&ca&a'&cs &aS&cn&an&ci&ap&ce&ar"
+        Skip_Name_Check: false
+        Item_Type: 370
+        Item_Lore: "&cI bet you never seen &a&l&oSanta Snipe before | &b&nFound in the Christmas Crate."
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 500
+        Projectile_Damage: 20
+        Sounds_Shoot: ENTITY_WITHER_SHOOT-1-0-0,FIRE_EXTINGUISH-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Reload:
+        Enable: true
+        Starting_Amount: 2
+        Reload_Amount: 2
+        Take_Ammo_On_Reload: True
+        Reload_Bullets_Individually: false
+        Reload_Duration: 100
+        Sounds_Reloading: BLOCK_NOTE_HAT-1-1-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-106
+    Abilities:
+        No_Fall_Damage: true
+    Firearm_Action:
+        Type: bolt
+        Open_Duration: 8
+        Close_Duration: 10
+        Close_Shoot_Delay: 50
+        Sound_Open: BLOCK_NOTE_HAT-1-0-0,BLOCK_PISTON_RETRACT-1-2-2
+        Sound_Close: BLOCK_PISTON_EXTEND-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 120
+        Sounds_Shooter: BLOCK_NOTE_BASS-1-2-0
+        Sounds_Victim: HURT-1-1-0
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: BLOCK_NOTE_HAT-1-2-0
+    Hit_Events:  
+        Enable: true
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+    Explosions:
+        Enable: true
+        Knockback: 5
+        Damage_Multiplier: 50
+        Explosion_No_Grief: true
+        Explosion_Radius: 8
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+IXSniper:
+    Item_Information:
+        Item_Name: "&eIXSniper"
+        Item_Type: 370
+        Item_Lore: "&cWant to snipe with the other 9?"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 500
+        Projectile_Damage: 20
+        Sounds_Shoot: ENTITY_WITHER_SHOOT-1-0-0,ENTITY_FIRE_EXTINGUISH-1-1-0
+    Reload:
+        Enable: true
+        Starting_Amount: 2
+        Reload_Amount: 2
+        Take_Ammo_On_Reload: True
+        Reload_Bullets_Individually: false
+        Reload_Duration: 100
+        Sounds_Reloading: BLOCK_NOTE_HAT-1-1-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-87
+    Abilities:
+        No_Fall_Damage: true
+    Firearm_Action:
+        Type: bolt
+        Open_Duration: 8
+        Close_Duration: 10
+        Close_Shoot_Delay: 25
+        Sound_Open: BLOCK_NOTE_HAT-1-0-0,PISTON_RETRACT-1-2-2
+        Sound_Close: BLOCK_PISTON_EXTEND-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 120
+        Sounds_Shooter: BLOCK_NOTE_BASS-1-2-0
+        Sounds_Victim: HURT-1-1-0
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: BLOCK_NOTE_HAT-1-2-0
+    Hit_Events:  
+        Enable: true
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+    Explosions:
+        Enable: true
+        Knockback: 5
+        Damage_Multiplier: 50
+        Explosion_No_Grief: true
+        Explosion_Radius: 8
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+SantaCannonn:
+    Item_Information:
+        Item_Name: "&cS&aa&cn&at&ca&a'&cs &aC&ca&an&cn&ao&cn"
+        Item_Type: 369
+        Item_Lore: "&cReady for &a&l&oChristmas? &cRule &a&l&oChristmas &cif you dare | &b&nFound in the Christmas Crate"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 120
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: Splash
+        Projectile_SubType: 397~4
+        Projectile_Speed: 35
+        Projectile_Damage: 50
+        Bullet_Spread: 1.5
+        Sounds_Shoot: ENTITY_BLAZE_HIT-2-1-0,EXPLODE-2-0-0,ENTITY_ZOMBIE_WOOD-2-2-0,ENTITY_ZOMBIE_WOOD-1-0-0,ENTITY_IRONGOLEM_HIT-2-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1.5
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Abilities:
+        No_Fall_Damage: true
+    Ammo:
+        Enable: false
+    Reload:
+        Enable: true
+        Reload_Amount: 4
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: CLICK-2-1-0
+        Take_Ammo_On_Reload: false
+        Sounds_Reloading: BLOCK_DOOR_OPEN-1-2-4,BLOCK_DOOR_OPEN-1-2-8,BLOCK_DOOR_CLOSE-1-2-23,BLOCK_DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: dCannon
+        Open_Duration: 10
+        Close_Duration: 10
+        Sound_Open: BLOCK_DOOR_OPEN-2-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-2-2-0
+    Shrapnel:
+        Enable: true
+        Block_Type: 35~5
+        Amount: 1
+        Speed: 5
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Damage_Multiplier: 175
+        On_Impact_With_Anything: true
+        Enable_Owner_Immunity: true
+        Knockback: 0
+        Sounds_Explode: 
+    Cluster_Bombs:
+        Enable: true
+        Bomblet_Type: 397~4
+        Delay_Before_Split: 10
+        Number_Of_Splits: 4
+        Number_Of_Bomblets: 3
+        Speed_Of_Bomblets: 9
+        Damage: 150
+        Delay_Before_Detonation: 70
+        Detonation_Delay_Variation: 4
+        Particle_Release: block_break-12
+        Sounds_Release: EXPLODE-2-1-0
+Pigpack:
+    Item_Information:
+        Item_Name: "&DPigpack"
+        Item_Type: 288
+        Item_Lore: "&5Soar across the skies with this amazing Jetpack! | &5You do not lose the Pigpack on death."
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Disable: false
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: -9
+        Projectile_Amount: 2
+        Projectile_Type: flare
+        Projectile_Subtype: 0
+        Delay_Between_Shots: 6
+        Projectile_Speed: 1500
+        Sounds_Shoot: ENTITY_ENDERMAN_TELEPORT-3-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 100
+        Reload_Duration: 60
+        Take_Ammo_On_Reload: false
+        Sounds_Reloading: BLOCK_FIRE_IGNITE-1-1-4,BLOCK_DOOR_OPEN-1-2-6,BLOCK_FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,BLOCK_DOOR_CLOSE-1-2-38
+    Particles:
+        Enable: false
+        Particle_Player_Shoot:
+    Abilities:
+        No_Fall_Damage: true
+        Death_No_Drop: true
+
+UpPigpack:
+    Item_Information:
+        Item_Name: "&DUpgraded Pigpack"
+        Item_Type: 288
+        Item_Lore: "&5Soar across the skies with this amazing Jetpack! | &5You do not lose the Pigpack on death."
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Disable: false
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: -9
+        Projectile_Amount: 2
+        Projectile_Type: flare
+        Projectile_Subtype: 0
+        Delay_Between_Shots: 5
+        Projectile_Speed: 1500
+        Sounds_Shoot: ENTITY_ENDERMAN_TELEPORT-3-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 100
+        Reload_Duration: 60
+        Take_Ammo_On_Reload: false
+        Sounds_Reloading: BLOCK_FIRE_IGNITE-1-1-4,BLOCK_DOOR_OPEN-1-2-6,BLOCK_FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+    Particles:
+        Enable: false
+        Particle_Player_Shoot:
+    Abilities:
+        No_Fall_Damage: true
+        Death_No_Drop: true
+Enderstaff:
+    Item_Information:
+        Item_Name: "&5Enderstaff"
+        Item_Type: 398
+        Item_Lore: "&5Jump through the skies with the legendary Ender Staff|&5You do not lose the Ender Staff on death."
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+        Inventory_Control: Group_Enderstaff
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: newworld,-528,142,526,-577,65,575,true
+        Message_Of_Denial: You cannot use guns in Spawn!
+    Shooting:
+        Disable: false
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: -30
+        Projectile_Amount: 1
+        Projectile_Type: flare
+        Projectile_Subtype: 0
+        Delay_Between_Shots: 60
+        Projectile_Speed: 10000
+        Sounds_Shoot: ENTITY_ENDERMAN_TELEPORT-6-2-0
+    Reload:
+        Enable: false
+        Reload_Amount: 25
+        Reload_Duration: 60
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: BLOCK_FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,BLOCK_FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-90
+    Abilities:
+        No_Fall_Damage: true
+        Death_No_Drop: true
+UE:
+    Item_Information:
+        Item_Name: "&5Ultimate Enderstaff"
+        Item_Type: 398
+        Item_Lore: "&5Jump through the skies with the legendary Ender Staff|&5You do not lose the Ender Staff on death."
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+        Inventory_Control: Group_Enderstaff
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: newworld,-528,142,526,-577,65,575,true
+        Message_Of_Denial: You cannot use guns in Spawn!
+    Shooting:
+        Disable: false
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: -30
+        Projectile_Amount: 1
+        Projectile_Type: flare
+        Projectile_Subtype: 0
+        Delay_Between_Shots: 0
+        Projectile_Speed: 10000
+        Sounds_Shoot: ENTITY_ENDERMAN_TELEPORT-6-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 5
+        Reload_Duration: 120
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: BLOCK_FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,BLOCK_FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,BLOCK_DOOR_CLOSE-1-2-38
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-90
+    Abilities:
+        No_Fall_Damage: true
+        Death_No_Drop: true
+Gappler:
+    Item_Information:
+        Item_Name: "&5&lGappler"
+        Item_Type: 286
+        Item_Lore: "&aA cluster bomb that releases|&a10 exploding Gapples upon detonation."
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Abilities:
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: grenade
+        Projectile_Subtype: 322~1
+        Projectile_Speed: 12
+        Sounds_Projectile: EAT-2-1-28,EAT-2-1-32,EAT-2-1-36
+        Sounds_Shoot: BLOCK_FIRE_IGNITE-2-0-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Cluster_Bombs:
+        Enable: true
+        Bomblet_Type: 322
+        Delay_Before_Split: 40
+        Number_Of_Splits: 1
+        Number_Of_Bomblets: 12
+        Speed_Of_Bomblets: 8
+        Delay_Before_Detonation: 40
+        Detonation_Delay_Variation: 10
+        Particle_Release: BLOCK_BREAK-127
+        Damage: 425
+        Sounds_Release: BLOCK_NOTE_HAT-1-0-0,ENTITY_EXPERIENCE_ORB_PICKUP-2-0-0
+    Explosions:
+        Enable: true
+        Damage_Multiplier: 230
+        Explosion_No_Grief: true
+        Explosion_Radius: 6
+        Sounds_Explode: BURP-2-1-0,BLOCK_PISTON_EXTEND-1-0-0,BLOCK_PISTON_RETRACT-1-0-0
+        One_Time_Use: true
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Duration: 140
+        Sounds_Reloading: LEVEL_UP-1-0-0 
+Presents:
+    Item_Information:
+        Item_Name: "&4&lP&2&lr&4&le&2&ls&4&le&2&ln&2&lt"
+        Item_Type: 54
+        Item_Lore: "&cPresent launcher.|&cRight click to fire|&cLeft-click to scope| &b&nFound in the Christmas Crate"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: grenade
+        Projectile_Subtype: 54
+        Projectile_Speed: 15
+        Sounds_Shoot: FIREWORK_TWINKLE-1-0-0,BLOCK_FIRE_EXTINGUISH-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 6
+        Explosion_Delay: 60
+        Damage_Multiplier: 250
+        Knockback: 1
+        Explosion_Potion_Effect: CONFUSION-140-2,SLOW-140-1
+    Shrapnel:
+        Enable: true
+        Block_Type: 35~5
+        Amount: 10
+        Speed: 2
+    Fireworks:
+        Enable: true
+        Firework_Explode: BURST-FALSE-FALSE-255-0-0,BURST-FALSE-FALSE-0-255-0,BURST-FALSE-FALSE-255-0-0
+    Particles:
+        Enable: true
+        Particle_Hit: smoke,explosion
+    Reload:
+        Enable: true
+        Reload_Amount: 3
+        Reload_Duration: 120
+        Sounds_Reloading: BLOCK_ANVIL_LAND_IDLE-1-0-10,BLOCK_PISTON_EXTEND-1-0-28,ENTITY_SKELETON_WALK-1-0-48
+    Sneak:
+        Enable: true
+        No_Recoil: true
+
+bday:
+    Item_Information:
+        Item_Name: "&b&lBirthday"
+        Item_Type: 54
+        Item_Lore: "&cIt's yo birthday :D &c"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 6
+        Bullet_Spread: 3
+        Projectile_Amount: 5
+        Projectile_Damage: 150
+        Projectile_Type: snowball
+        Projectile_Speed: 35
+        Sounds_Shoot: ENTITY_FIREWORK_TWINKLE
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Delay: 5
+        Explosion_Damage: 250
+        Explosion_Radius: 5
+        On_Impact_With_Anything: true
+        Enable_Owner_Immunity: true
+    Fireworks:
+        Enable: true
+        Firework_Explode: BURST-FALSE-FALSE-255-0-0,BURST-FALSE-FALSE-0-255-0,BURST-FALSE-FALSE-255-0-0
+    Particles:
+        Enable: true
+        Particle_Hit: smoke,explosion
+    Reload:
+        Enable: true
+        Reload_Amount: 10
+        Reload_Duration: 120
+        Sounds_Reloading: BLOCK_ANVIL_LAND_IDLE-1-0-10,PISTON_EXTEND-1-0-28,SKELETON_WALK-1-0-48
+    Sneak:
+        Enable: true
+        No_Recoil: true
+FuckMe:
+    Item_Information:
+        Item_Name: "&eFuck &cMe"
+        Item_Type: 54
+        Item_Lore: "&7Fucking Level: &a:::::::::::::::::"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: grenade
+        Projectile_Subtype: 54
+        Projectile_Speed: 15
+        Sounds_Shoot: ENTITY_FIREWORK_TWINKLE-1-0-0,ENTITY_FIRE_EXTINGUISH-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 50
+        Explosion_Delay: 60
+        Damage_Multiplier: 250
+        Knockback: 1
+        Explosion_Potion_Effect: CONFUSION-140-2,SLOW-140-1
+    Shrapnel:
+        Enable: true
+        Block_Type: 35~5
+        Amount: 10
+        Speed: 2
+    Fireworks:
+        Enable: true
+        Firework_Explode: BURST-FALSE-FALSE-255-0-0,BURST-FALSE-FALSE-0-255-0,BURST-FALSE-FALSE-255-0-0
+    Particles:
+        Enable: true
+        Particle_Hit: smoke,explosion
+    Reload:
+        Enable: true
+        Reload_Amount: 10000
+        Reload_Duration: 1
+        Sounds_Reloading: BLOCK_ANVIL_LAND_IDLE-1-0-10,BLOCK_PISTON_EXTEND-1-0-28,ENTITY_SKELETON_WALK-1-0-48
+    Sneak:
+        Enable: true
+        No_Recoil: true
+    Abilities:
+Laser_Pistol:
+    Item_Information:
+        Item_Name: "&f&lLaser Pistol&f"
+        Item_Type: 292
+        Item_Lore: "&eShoots laser beams.|&eBeams can pass through 3 targets per shot."
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 3
+        Recoil_Amount: 4
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 50-1-NONE-3
+        Projectile_Damage: 220
+        Bullet_Spread: 0.0
+        Sounds_Shoot: ENTITY_IRONGOLEM_DEATH-1-1.8-0,ENTITY_IRONGOLEM_DEATH-1-1.85-0,ENTITY_IRONGOLEM_DEATH-1-1.9-0,GLASS-1-2-0
+    Firearm_Action:
+        Type: bolt
+        Open_Duration: 3
+        Close_Duration: 4
+        Close_Shoot_Delay: 5
+        Sound_Open: BLOCK_DOOR_OPEN-1-2-0,ENTITY_WITHER_SHOOT-1-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-1-1.5-0,ENTITY_WITHER_SHOOT-1-1.5-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-90,smoke,FLAMES-1
+        Particle_Hit: BLOCK_BREAK-90,smoke,FLAMES-1
+    Reload:
+        Enable: true
+        Reload_Amount: 10
+        Reload_Duration: 120
+        Sounds_Reloading: ENTITY_WITHER_SHOOT-1-0-10,ENTITY_GHAST_FIREBALL-1-0-10,ENTITY_WITHER_SHOOT-1-0.5-30,ENTITY_GHAST_FIREBALL-1-0.5-30,ENTITY_WITHER_SHOOT-1-1-50,ENTITY_GHAST_FIREBALL-1-1-50,ENTITY_WITHER_SHOOT-1-1.5-70,ENTITY_GHAST_FIREBALL-1-1.5-70,ENTITY_WITHER_SHOOT-1-2-90,ENTITY_GHAST_FIREBALL-1-2-90
+    Abilities:
+        Reset_Hit_Cooldown: true
+Thundergun:
+    Item_Information:
+        Item_Name: "&b&lThunder Gun"
+        Item_Type: 113
+        Item_Lore: "&7Need help?"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Delay_Between_Shots: 15
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Subtype: 50-1-NONE-3        
+        Projectile_Speed: 300
+        Bullet_Spread: 0.1
+        Projectile_Damage: 110
+        Sounds_Shoot: BLOCK_NOTE_SNARE_DRUM-1-1-3
+        Projectile_Incendiary:
+            Enable: false
+            Duration: 150    
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Reload:
+        Enable: true
+        Reload_Amount: 18
+        Reload_Duration: 40
+        Sounds_Reloading: ENTITY_ZOMBIE_UNFECT-1-1-10,ENTITY_ZOMBIE_UNFECT-1-0-20,ENTITY_ZOMBIE_INFECT-1-1-35
+    Hit_Events:
+        Enable: true
+        Sounds_Impact: ENTITY_ZOMBIE_REMEDY-1-2-0
+        Sounds_Victim: ENTITY_ZOMBIE_METAL-1-2-0
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: SLOW-50-5
+    Lightning:
+        Enable: true
+        No_Damage: false
+        On_Impact_With_Anything: true
+Tesla_Shotgun:
+    Item_Information:
+        Item_Name: "&f&lTesla Shotgun&f"
+        Item_Type: 40
+        Item_Lore: 
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 10-1-NONE-0
+        Projectile_Damage: 60
+        Sounds_Shoot: ENTITY_FIREWORK_BLAST-1-2-0,ENTITY_FIREWORK_BLAST-1-2-1,ENTITY_FIREWORK_BLAST-1-2-2,ENTITY_FIREWORK_BLAST-1-2-3,ENTITY_FIREWORK_BLAST-1-2-4,ENTITY_FIREWORK_BLAST-1-2-5,ENTITY_FIREWORK_BLAST-1-2-6,ENTITY_FIREWORK_BLAST-1-2-7    
+    Reload:
+        Enable: true
+        Reload_Amount: 7
+        Reload_Bullets_Individually: true
+        Reload_Duration: 8
+        Sounds_Reloading: HORSE_LAND-1-2.7-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-41
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 12
+        Close_Duration: 3
+        Sound_Open: BLOCK_PISTON_EXTEND-1-1.7-0
+        Sound_Close: BLOCK_PISTON_EXTEND-1-1.7-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+
+Tesla_Assult:
+    Item_Information:
+        Item_Name: "&f&lTesla Assult&f"
+        Item_Type: 40
+        Item_Lore: 
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Right_Click_To_Shoot: true
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 10-1-NONE-0
+        Projectile_Damage: 21
+        Sounds_Shoot: ENTITY_FIREWORK_BLAST-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 50
+        Reload_Bullets_Individually: true
+        Reload_Duration: 8
+        Sounds_Reloading: ENTITY_HORSE_LAND-1-2.7-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-41
+    Abilities:
+        Reset_Hit_Cooldown: true
+
+Tesla_Sniper:
+    Item_Information:
+        Item_Name: "&f&lTesla Sniper&f"
+        Item_Type: 40
+        Item_Lore: 
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 10-1-NONE-0
+        Projectile_Damage: 140
+        Sounds_Shoot: ENTITY_FIREWORK_BLAST-1-2-0
+        Enable: true
+        Reload_Amount: 7
+        Reload_Bullets_Individually: true
+        Reload_Duration: 8
+        Sounds_Reloading: HORSE_LAND-1-2.7-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-41
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 12
+        Close_Duration: 3
+        Sound_Open: BLOCK_PISTON_EXTEND-1-1.7-0
+        Sound_Close: BLOCK_PISTON_EXTEND-1-1.7-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+
+Wands:
+    Item_Information:
+        Item_Name: "&f&lWand"
+        Item_Type: 280
+        Item_Lore: 
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Subtype: 10-1-NONE-0
+        Projectile_Damage: 140
+        Projectile_Speed: 15
+        Sounds_Shoot: ENTITY_FIREWORK_BLAST-1-2-0
+        Enable: true
+        Reload_Amount: 7
+        Reload_Bullets_Individually: true
+        Reload_Duration: 8
+        Sounds_Reloading: ENTITY_HORSE_LAND-1-2.7-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 12
+        Close_Duration: 3
+        Sound_Open: BLOCK_PISTON_EXTEND-1-1.7-0
+        Sound_Close: BLOCK_PISTON_EXTEND-1-1.7-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+
+Ion_Blaster:
+    Item_Information:
+        Item_Name: "&f&lIon Blaster&f"
+        Item_Type: 421
+        Item_Lore: 
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Delay_Between_Shots: 5
+        Right_Click_To_Shoot: true
+        Projectile_Type: energy
+        Projectile_Subtype: 40-4-10-0
+        Projectile_Damage: 50
+        Sounds_Shoot: ZOMBIE_METAL-2-2-0,WITHER_SHOOT-0.5-1.5-0
+    Reload:
+        Enable: true
+        Reload_Amount: 12
+        Reload_Duration: 40
+        Sounds_Reloading: wood_click-1-1-10,STEP_GRAVEL-2-0-17,STEP_LADDER-2-0-25,wood_click-1-1-38
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHEEP_SHEAR-1-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_break-119
+Zada:
+    Item_Information:
+        Item_Name: "&cZada"
+        Item_Type: 369
+        Enchantment_To_Check: DURABILITY-10
+        Item_Lore: "&eDominate your enemies | &7Power: &a::::::::::."
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 5
+        Recoil_Amount: 1
+        Projectile_Amount: 5
+        Projectile_Type: witherskull
+        Projectile_Speed: 5
+        Projectile_Damage: 5
+        Projectile_Incendiary:
+            Enable: false
+            Duration: 500
+        Bullet_Spread: 5
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_ZOMBIE_WOOD-1-1-0,EXPLODE-1-2-0,ENTITY_GHAST_FIREBALL-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 5
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_BASS-1-2-0
+        Sounds_Shoot_With_No_Ammo: BLOCK_NOTE_HAT-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 30
+        Reload_Duration: 2
+        Sounds_Reloading: BLOCK_NOTE_HAT-1-1-0,NOTE_SNARE_DRUM-1-6-1
+        Take_Ammo_On_Reload: true
+        Take_Ammo_As_Magazine: true
+    Firearm_Action:
+        Type: break
+        Open_Duration: 10
+        Close_Duration: 15
+        Sound_Open: BLOCK_DOOR_OPEN-1-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+    Explosions:
+        Enable: true
+        Knockback: 0
+        Damage_Multiplier: 280
+        Explosion_No_Grief: true
+        Explosion_Radius: 4
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+    Scope:
+        Enable: true
+        Zoom_Amount: 5
+        Zoom_Bullet_Spread: 5
+        Sounds_Toggle_Zoom: ENTITY_ENDERDRAGON_WINGS-1-2-0
+    Damage_Based_On_Flight_Time:
+        Enable: true
+        Bonus_Damage_Per_Tick: -1
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: FLAMES-1
+        Particle_Impact_Anything: BLOCK_BREAK-51
+
+ZadaMk2:
+    Item_Information:
+        Item_Name: "&cZadaMk2"
+        Item_Type: 369
+        Item_Lore: "&cOwn your enemies | &eOp guns what shoot wither heads | &7Power: &a:::::::::::::::::::::"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Bullet_Spread: 2
+        Delay_Between_Shots: 8
+        Recoil_Amount: 2
+        Projectile_Amount: 4
+        Projectile_Type: witherskull
+        Projectile_Speed: 5
+        Sounds_Shoot: ENTITY_ZOMBIE_WOOD-1-0-0,FIRE_EXTINGUISH-1-1-0
+    Abilities:
+        No_Fall_Damage: true
+    Reload:
+        Enable: true
+        Reload_Amount: 30
+        Reload_Duration: 5
+        Sounds_Reloading: BLOCK_ANVIL_LAND_IDLE-1-0-10
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Damage_Multiplier: 270
+        On_Impact_With_Anything: true
+        Enable_Owner_Immunity: true
+        Knockback: 0
+        Sounds_Explode:
+SoulZada:
+    Item_Information:
+        Item_Name: "&cZada &b&o- Soulbounded"
+        Item_Type: 369
+        Item_Lore: "&cPowerful Weapon | &7Power: &a:::&c::::"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Bullet_Spread: 2
+        Delay_Between_Shots: 8
+        Recoil_Amount: 2
+        Projectile_Amount: 4
+        Projectile_Type: witherskull
+        Projectile_Speed: 5
+        Sounds_Shoot: ENTITY_ZOMBIE_WOOD-1-0-0,BLOCK_FIRE_EXTINGUISH-1-1-0
+    Abilities:
+        No_Fall_Damage: true
+        Death_No_Drop: true
+    Reload:
+        Enable: true
+        Reload_Amount: 30
+        Reload_Duration: 5
+        Sounds_Reloading: BLOCK_ANVIL_LAND_IDLE-1-0-10
+    Crafting:
+        Enable: true
+        Shaped: false
+        Ingredients: 383~68,369
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Damage_Multiplier: 120
+        On_Impact_With_Anything: true
+        Enable_Owner_Immunity: true
+        Knockback: 0
+        Sounds_Explode: 
+CookieLauncher:
+    Item_Information:
+        Item_Name: "&6&nCookie&f &6&nLauncher"
+        Item_Type: 357
+        Item_Lore: "&cCookies!&eHeals on hit | &b&nFound in the Christmas Crate"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 10
+        Projectile_Type: grenade
+        Projectile_Subtype: 357
+        Bullet_Spread: 7
+        Delay_Between_Shots: 10
+        Projectile_Speed: 15
+        Sounds_Shoot: ENTITY_FIREWORK_TWINKLE-1-0-0,BLOCK_FIRE_EXTINGUISH-1-1-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 6
+        Explosion_Delay: 8
+        Enable_Owner_Immunity: true
+        Damage_Multiplier: 125
+        Knockback: 0.1
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-357
+        Particle_Hit: BLOCK_BREAK-357
+    Fireworks:
+        Enable: true
+        Firework_Explode: BURST-FALSE-FALSE-255-0-0,BURST-FALSE-FALSE-0-255-0,BURST-FALSE-FALSE-255-0-0
+    Particles:
+        Enable: true
+        Particle_Hit: smoke,explosion
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Reload:
+        Enable: true
+        Reload_Amount: 3
+        Reload_Duration: 120
+        Sounds_Reloading: BLOCK_ANVIL_LAND_IDLE-1-0-10,BLOCK_PISTON_EXTEND-1-0-28,ENTITY_SKELETON_WALK-1-0-48
+
+Soulbound:
+    Item_Information:
+        Item_Name: "&eSoulbound"
+        Item_Type: 383~67
+        Item_Lore: "&7Equip this to a gun to make it keep on death!"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+
+SpecialSoulbound:
+    Item_Information:
+        Item_Name: "&cSpecial &eSoulbound"
+        Item_Type: 383~68
+        Item_Lore: "&7Equip this to a gun to make it keep on death!"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+
+SoulSantaSniper:
+    Item_Information:
+        Item_Name: "&cS&aa&cn&at&ca&a'&cs &aS&cn&an&ci&ap&ce&ar &c&0- Soulbound"
+        Skip_Name_Check: false
+        Item_Type: 370
+        Item_Lore: "&cI bet you never seen &a&l&oSanta Snipe before | &b&nFound in the Christmas Crate.|&eSoulbound"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 500
+        Projectile_Damage: 20
+        Sounds_Shoot: ENTITY_WITHER_SHOOT-1-0-0,BLOCK_FIRE_EXTINGUISH-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Reload:
+        Enable: true
+        Starting_Amount: 2
+        Reload_Amount: 2
+        Take_Ammo_On_Reload: True
+        Reload_Bullets_Individually: false
+        Reload_Duration: 100
+        Sounds_Reloading: BLOCK_NOTE_HAT-1-1-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-106
+    Abilities:
+        No_Fall_Damage: true
+        Death_No_Drop: true
+    Firearm_Action:
+        Type: bolt
+        Open_Duration: 8
+        Close_Duration: 10
+        Close_Shoot_Delay: 50
+        Sound_Open: BLOCK_NOTE_HAT-1-0-0,BLOCK_PISTON_RETRACT-1-2-2
+        Sound_Close: BLOCK_PISTON_EXTEND-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 120
+        Sounds_Shooter: BLOCK_NOTE_BASS-1-2-0
+        Sounds_Victim: HURT-1-1-0
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: BLOCK_NOTE_HAT-1-2-0
+    Hit_Events:  
+        Enable: true
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+    Crafting:
+        Enable: true
+        Shaped: false
+        Ingredients: 383~67,370
+    Explosions:
+        Enable: true
+        Knockback: 5
+        Damage_Multiplier: 50
+        Explosion_No_Grief: true
+        Explosion_Radius: 8
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+SoulSantaCannonn:
+    Item_Information:
+        Item_Name: "&cS&aa&cn&at&ca&a'&cs &aC&ca&an&cn&ao&cn &c&o- Soulbound"
+        Item_Type: 369
+        Item_Lore: "&cReady for &a&l&oChristmas? &cRule &a&l&oChristmas &cif you dare | &b&nFound in the Christmas Crate|&eSoulbound"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 120
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: Splash
+        Projectile_SubType: 397~4
+        Projectile_Speed: 35
+        Projectile_Damage: 50
+        Bullet_Spread: 1.5
+        Sounds_Shoot: ENTITY_BLAZE_HIT-2-1-0,EXPLODE-2-0-0,ENTITY_ZOMBIE_WOOD-2-2-0,ENTITY_ZOMBIE_WOOD-1-0-0,ENTITY_IRONGOLEM_HIT-2-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1.5
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Abilities:
+        No_Fall_Damage: true
+        Death_No_Drop: true
+    Ammo:
+        Enable: false
+    Reload:
+        Enable: true
+        Reload_Amount: 4
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: CLICK-2-1-0
+        Take_Ammo_On_Reload: false
+        Sounds_Reloading: BLOCK_DOOR_OPEN-1-2-4,BLOCK_DOOR_OPEN-1-2-8,BLOCK_DOOR_CLOSE-1-2-23,BLOCK_DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: dCannon
+        Open_Duration: 10
+        Close_Duration: 10
+        Sound_Open: BLOCK_DOOR_OPEN-2-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-2-2-0
+    Crafting:
+        Enable: true
+        Shaped: false
+        Ingredients: 383~67,369
+    Shrapnel:
+        Enable: true
+        Block_Type: 35~5
+        Amount: 1
+        Speed: 5
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Damage_Multiplier: 175
+        On_Impact_With_Anything: true
+        Enable_Owner_Immunity: true
+        Knockback: 0
+        Sounds_Explode: 
+    Cluster_Bombs:
+        Enable: true
+        Bomblet_Type: 397~4
+        Delay_Before_Split: 10
+        Number_Of_Splits: 4
+        Number_Of_Bomblets: 3
+        Speed_Of_Bomblets: 9
+        Damage: 150
+        Delay_Before_Detonation: 70
+        Detonation_Delay_Variation: 4
+        Particle_Release: block_break-12
+        Sounds_Release: EXPLODE-2-1-0
+SoulSnowblower:
+    Item_Information:
+        Item_Name: "&bSnow Blower &c&o- Soulbound"
+        Item_Type: 79
+        Item_Lore: "&cBlow past your snow away! Freeze enemies! | &b&nFound in the Christmas Crate|&eSoulbound"
+        Sounds_Acquired: BLOCK-BREAK-79
+    Shooting:
+        Right_Click_To_Shoot: true
+        Delay_Between_Shots: 4
+        Projectile_Amount: 3
+        Projectile_Type: snowball
+        Projectile_Speed: 20
+        Bullet_Spread: 4
+        Projectile_Damage: 15
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 1
+    Crafting:
+        Enable: true
+        Shaped: false
+        Ingredients: 383~67,79
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+    Reload:
+        Enable: true
+        Reload_Amount: 50
+        Reload_Duration: 40
+        Sounds_Reloading: BLOCK-BREAK-79
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK-BREAK-79
+        Particle_Hit: block_break-79, block_break-79
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: SLOW-60-20
+    Hit_Events:
+        Enable: true
+        Sounds_Impact: BLOCK-BREAK-79
+        Sounds_Victim: BLOCK-BREAK-79
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+SoulCookieLauncher:
+    Item_Information:
+        Item_Name: "&6&nCookie&f &6&nLauncher &c&o- Soulbound"
+        Item_Type: 357
+        Item_Lore: "&cCookies!&eHeals on hit | &b&nFound in the Christmas Crate|&eSoulbound"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 10
+        Projectile_Type: grenade
+        Projectile_Subtype: 357
+        Bullet_Spread: 7
+        Delay_Between_Shots: 10
+        Projectile_Speed: 15
+        Sounds_Shoot: ENTITY_FIREWORK_TWINKLE-1-0-0,BLOCK_FIRE_EXTINGUISH-1-1-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 6
+        Explosion_Delay: 8
+        Enable_Owner_Immunity: true
+        Damage_Multiplier: 96
+        Knockback: 0.1
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-357
+        Particle_Hit: BLOCK_BREAK-357
+    Crafting:
+        Enable: true
+        Shaped: false
+        Ingredients: 383~67,357
+    Fireworks:
+        Enable: true
+        Firework_Explode: BURST-FALSE-FALSE-255-0-0,BURST-FALSE-FALSE-0-255-0,BURST-FALSE-FALSE-255-0-0
+    Particles:
+        Enable: true
+        Particle_Hit: smoke,explosion
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+    Reload:
+        Enable: true
+        Reload_Amount: 3
+        Reload_Duration: 120
+        Sounds_Reloading: BLOCK_ANVIL_LAND_IDLE-1-0-10,BLOCK_PISTON_EXTEND-1-0-28,ENTITY_SKELETON_WALK-1-0-48
+SoulPresents:
+    Item_Information:
+        Item_Name: "&4&lP&2&lr&4&le&2&ls&4&le&2&ln&2&lt &c&0- Soulbound"
+        Item_Type: 54
+        Item_Lore: "&cPresent launcher.|&cRight click to fire|&cLeft-click to scope| &b&nFound in the Christmas Crate|&eSoulbound"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: grenade
+        Projectile_Subtype: 54
+        Projectile_Speed: 15
+        Sounds_Shoot: ENTITY_FIREWORK_TWINKLE-1-0-0,BLOCK_FIRE_EXTINGUISH-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 6
+        Explosion_Delay: 60
+        Damage_Multiplier: 250
+        Knockback: 1
+        Explosion_Potion_Effect: CONFUSION-140-2,SLOW-140-1
+    Shrapnel:
+        Enable: true
+        Block_Type: 35~5
+        Amount: 10
+        Speed: 2
+    Fireworks:
+        Enable: true
+        Firework_Explode: BURST-FALSE-FALSE-255-0-0,BURST-FALSE-FALSE-0-255-0,BURST-FALSE-FALSE-255-0-0
+    Particles:
+        Enable: true
+        Particle_Hit: smoke,explosion
+    Reload:
+        Enable: true
+        Reload_Amount: 3
+        Reload_Duration: 120
+        Sounds_Reloading: BLOCK_ANVIL_LAND_IDLE-1-0-10,BLOCK_PISTON_EXTEND-1-0-28,ENTITY_SKELETON_WALK-1-0-48
+    Crafting:
+        Enable: true
+        Shaped: false
+        Ingredients: 383~67,54
+    Sneak:
+        Enable: true
+        No_Recoil: true
+    Abilities: 
+        Death_No_Drop: true
+AK-47:
+    Item_Information:
+        Item_Name: "&dAK-47 | &dRedline &b"
+        Item_Type: 337
+        Item_Lore: "&eFully automatic with high power.|&eEffective at medium range.|&eControls are inverted."
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 15
+        Projectile_Damage: 40
+        Bullet_Spread: 0.0
+        Sounds_Shoot: ENTITY_CREEPER_DEATH-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 6
+    Reload:
+        Enable: true
+        Reload_Amount: 30
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: BLOCK_FIRE_IGNITE-1-1-4,BLOCK_DOOR_OPEN-1-2-6,BLOCK_FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,BLOCK_DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+
+SSG08:
+    Item_Information:
+        Item_Name: "&bSSG 08 | Slashed &c"
+        Item_Type: 2256
+        Item_Lore: "&eBolt-action rifle with high accuracy.|&eEquipped with a night vision scope.|&eDeals double damage on headshots."
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 1000
+        Projectile_Damage: 40
+        Sounds_Shoot: ENTITY_BLAZE_HIT-1-1-0,EXPLODE-1-2-0
+    Reload:
+        Enable: true
+        Starting_Amount: 10
+        Reload_Amount: 10
+        Reload_Bullets_Individually: true
+        Reload_Duration: 10
+        Sounds_Reloading: BLOCK_NOTE_HAT-1-1-0
+    Firearm_Action:
+        Type: bolt
+        Open_Duration: 8
+        Close_Duration: 7
+        Close_Shoot_Delay: 6
+        Sound_Open: BLOCK_NOTE_HAT-1-0-0,BLOCK_PISTON_RETRACT-1-2-2
+        Sound_Close: BLOCK_PISTON_EXTEND-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 3
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-1
+        Particle_Terrain: true
+    Fireworks:
+        Enable: true
+        Firework_Headshot: STAR-TRUE-TRUE-250-0-0
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: BLOCK_NOTE_HAT-1-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+AWP:
+    Item_Information:
+        Item_Name: "&cAWP | Asiimov &c"
+        Item_Type: 2260
+        Item_Lore: "&eBolt-action rifle with high accuracy.|&eEquipped with a night vision scope.|&eDeals double damage on headshots."
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Right_Click_To_Shoot: true
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 1000
+        Projectile_Damage: 60
+        Sounds_Shoot: ENTITY_WITHER_SPAWN-1-2-0
+    Reload:
+        Enable: true
+        Starting_Amount: 10
+        Reload_Amount: 10
+        Reload_Bullets_Individually: true
+        Reload_Duration: 10
+        Sounds_Reloading: BLOCK_NOTE_HAT-1-1-0
+    Firearm_Action:
+        Type: bolt
+        Open_Duration: 8
+        Close_Duration: 7
+        Close_Shoot_Delay: 6
+        Sound_Open: BLOCK_NOTE_HAT-1-0-0,BLOCK_PISTON_RETRACT-1-2-2
+        Sound_Close: BLOCK_PISTON_EXTEND-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 3
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-1
+        Particle_Terrain: true
+    Fireworks:
+        Enable: true
+        Firework_Headshot: STAR-TRUE-TRUE-250-0-0
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: BLOCK_NOTE_HAT-1-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+ForcePush:
+    Item_Information:
+        Item_Name: "&bForce Push &c- Soulbound"
+        Item_Type: 341
+        Item_Lore: "&5Push your enemies | &eSoulbound"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Disable: false
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 0
+        Projectile_Amount: 5
+        Projectile_Type: snowball
+        Projectile_Subtype: 0
+        Delay_Between_Shots: 80
+        Projectile_Speed: 10000
+        Sounds_Shoot: ENTITY_ENDERMAN_TELEPORT-6-2-0
+    Reload:
+        Enable: false
+        Reload_Amount: 25
+        Reload_Duration: 60
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: BLOCK_FIRE_IGNITE-1-1-4,BLOCK_DOOR_OPEN-1-2-6,BLOCK_FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+    Abilities:
+        No_Fall_Damage: false
+        Death_No_Drop: true
+        Knockback: 5
+ForcePull:
+    Item_Information:
+        Item_Name: "&bForce Pull &c- Soulbound"
+        Item_Type: 341
+        Item_Lore: "&CPull your enemies | &e Soulbound"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Disable: false
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 0
+        Projectile_Amount: 5
+        Projectile_Type: snowball
+        Projectile_Subtype: 0
+        Delay_Between_Shots: 80
+        Projectile_Speed: 10000
+        Sounds_Shoot: ENTITY_ENDERMAN_TELEPORT-6-2-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 1
+        Delay_Between_Shots_In_Burst: 20
+    Reload:
+        Enable: false
+        Reload_Amount: 25
+        Reload_Duration: 60
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: BLOCK_FIRE_IGNITE-1-1-4,BLOCK_DOOR_OPEN-1-2-6,BLOCK_FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,BLOCK_DOOR_CLOSE-1-2-38
+    Abilities:
+        No_Fall_Damage: false
+        Knockback: -15
+        Death_No_Drop: true
+EMinigun:
+    Item_Information:
+        Item_Name: "&eMinigun"
+        Item_Type: 106
+        Item_Lore: "&eFully automatic with high power.|&eEffective at low range.|&eControls are inverted."
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 1
+        Projectile_Amount: 4
+        Projectile_Type: snowball
+        Projectile_Speed: 50
+        Projectile_Damage: 10
+        Bullet_Spread: 1
+        Sounds_Shoot: ENTITY_CREEPER_DEATH-1-2-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 1
+    Reload:
+        Enable: true
+        Reload_Amount: 200
+        Reload_Duration: 100
+        Sounds_Reloading: BLOCK_FIRE_IGNITE-1-1-4,BLOCK_DOOR_OPEN-1-2-6,BLOCK_FIRE_IGNITE
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0-1-1-36,HURT_FLESH-1-0-37,BLOCK_DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 1
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Delay: 5
+        Explosion_Radius: 1
+        On_Impact_With_Anything: true
+        Enable_Owner_Immunity: true
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+
+AvatarPig:
+    Item_Information:
+        Item_Name: "&cAvatar Custom Gun"
+        Item_Type: 320
+        Item_Lore: "&eFeel the power of the dark side."
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 1
+        Projectile_Amount: 4
+        Projectile_Type: snowball
+        Projectile_Speed: 50
+        Projectile_Damage: 2
+        Bullet_Spread: 1
+        Sounds_Shoot: ENTITY_CREEPER_DEATH-1-2-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 1
+    Reload:
+        Enable: true
+        Reload_Amount: 200
+        Reload_Duration: 100
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: BLOCK_FIRE_IGNITE-1-1-4,BLOCK_DOOR_OPEN-1-2-6,BLOCK_FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,BLOCK_DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 1
+        Sound_Close: BLOCK_PISTON_RETRACT-1-2-0,BLOCK_PISTON_RETRACT-1-2-3
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Delay: 5
+        Explosion_Radius: 1
+        On_Impact_With_Anything: true
+        Enable_Owner_Immunity: true
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+
+DragonBreath:
+    Item_Information:
+        Item_Name: "&cDragon Breath"
+        Skip_Name_Check: false
+        Item_Type: 369
+        Item_Lore: "&cYour gonna hear me roar | roar!."
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Right_Click_To_Shoot: true
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0.1
+        Projectile_Amount: 3
+        Projectile_Type: snowball
+        Projectile_Speed: 60
+        Projectile_Damage: 50
+        Projectile_Flames: true
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 140
+        Bullet_Spread: 0.1
+        Reset_Fall_Distance: false
+        Sounds_Shoot: GHAST_FIREBALL-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Take_Ammo_Per_Shot: false
+        Sounds_Out_Of_Ammo: ENTITY_ARROW_SHOOT-1-2-0
+        Sounds_Shoot_With_No_Ammo: ENTITY_IRONGOLEM_THROW-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 200
+        Reload_Duration: 21
+        Take_Ammo_As_Magazine: true
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: BLOCK_NOTE_HAT-1-1-0,NOTE_SNARE-1-6-1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Take_Ammo_Per_Shot: false
+        Sounds_Out_Of_Ammo: ENTITY_ARROW_SHOOT-1-2-0
+        Sounds_Shoot_With_No_Ammo: ENTITY_IRONGOLEM_THROW-1-2-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 2
+        Delay_Between_Shots_In_Burst: 2
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 0
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+
+SoulChineseFactory:
+    Item_Information:
+        Item_Name: "&cChinese &eFactory &6&o- Soulbound"
+        Skip_Name_Check: false
+        Item_Type: 265
+        Item_Lore: "&c#Overworked"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Right_Click_To_Shoot: true
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0.1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 80
+        Projectile_Damage: 40
+        Projectile_Flames: true
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 140
+        Bullet_Spread: 0.1
+        Reset_Fall_Distance: false
+        Sounds_Shoot: ENTITY_ARROW_SHOOT-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Custom_Death_Message:
+        Normal: "                                                                                                                    &c&l<victim> &b&l&oWas overworked by a Chinese Factory.                                 "
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Take_Ammo_Per_Shot: false
+        Sounds_Out_Of_Ammo: ENTITY_ARROW_SHOOT-1-2-0
+        Sounds_Shoot_With_No_Ammo: ENTITY_IRONGOLEM_THROW-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 25
+        Reload_Duration: 21
+        Take_Ammo_As_Magazine: true
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: BLOCK_NOTE_HAT-1-1-0,NOTE_SNARE_DRUM-1-6-1
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 2
+        Delay_Between_Shots_In_Burst: 2
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 0
+        Death_No_Drop: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+
+
+ChineseFactory:
+    Item_Information:
+        Item_Name: "&cChinese &eFactory"
+        Skip_Name_Check: false
+        Item_Type: 265
+        Item_Lore: "&c#Overworked"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Right_Click_To_Shoot: true
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0.1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 30
+        Projectile_Damage: 30
+        Projectile_Flames: true
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 140
+        Bullet_Spread: 0.1
+        Reset_Fall_Distance: false
+        Sounds_Shoot: ENTITY_ARROW_SHOOT-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Custom_Death_Message:
+        Normal: "                                                                                                                    &c&l<victim> &b&l&oWas overworked by a Chinese Factory.                                 "
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Take_Ammo_Per_Shot: false
+        Sounds_Out_Of_Ammo: ENTITY_ARROW_SHOOT-1-2-0
+        Sounds_Shoot_With_No_Ammo: ENTITY_IRONGOLEM_THROW-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 25
+        Reload_Duration: 21
+        Take_Ammo_As_Magazine: true
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: BLOCK_NOTE_HAT-1-1-0,NOTE_SNARE-1-6-1
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 2
+        Delay_Between_Shots_In_Burst: 2
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 0
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+soulDragonBreath:
+    Item_Information:
+        Item_Name: "&cDragon Breath - &bSoulbound"
+        Skip_Name_Check: false
+        Item_Type: 369
+        Item_Lore: "&cYour gonna hear me roar | roar!."
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Right_Click_To_Shoot: true
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0.1
+        Projectile_Amount: 3
+        Projectile_Type: snowball
+        Projectile_Speed: 60
+        Projectile_Damage: 90
+        Projectile_Flames: true
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 140
+        Bullet_Spread: 0.1
+        Reset_Fall_Distance: false
+        Sounds_Shoot: GHAST_FIREBALL-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Take_Ammo_Per_Shot: false
+        Sounds_Out_Of_Ammo: ENTITY_ARROW_SHOOT-1-2-0
+        Sounds_Shoot_With_No_Ammo: ENTITY_IRONGOLEM_THROW-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 200
+        Reload_Duration: 21
+        Take_Ammo_As_Magazine: true
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: BLOCK_NOTE_HAT-1-1-0,NOTE_SNARE-1-6-1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Take_Ammo_Per_Shot: false
+        Sounds_Out_Of_Ammo: ENTITY_ARROW_SHOOT-1-2-0
+        Sounds_Shoot_With_No_Ammo: ENTITY_IRONGOLEM_THROW-1-2-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 2
+        Delay_Between_Shots_In_Burst: 2
+    Abilities:
+        Reset_Hit_Cooldown: false
+        Knockback: 0
+        No_Fall_Damage: true
+        Death_No_Drop: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+RaygunMk3:
+    Item_Information:
+        Item_Name: "&bRaygun Mk.3"
+        Item_Type: 352
+        Item_Lore: "&cUpgraded RayGun Mk2|This is a very high damage."
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Delay_Between_Shots: 6
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 50-1-NONE-3        
+        Projectile_Speed: 300
+        Projectile_Damage: 80
+        Sounds_Shoot: BLOCK_NOTE_SNARE-1-1-3
+        Projectile_Incendiary:
+            Enable: false
+            Duration: 150
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 1
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Reload:
+        Enable: true
+        Reload_Amount: 50
+        Reload_Duration: 40
+        Sounds_Reloading: ENTITY_ZOMBIE_UNFECT-1-1-10,ENTITY_ZOMBIE_UNFECT-1-0-20,ENTITY_ZOMBIE_INFECT-1-1-35
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK-BREAK-22
+        Particle_Hit: block_break-22, block_break-22, FLAMES-10
+        Particle_Impact_Anything: block_break-22, block_break-22
+    Hit_Events:
+        Enable: true
+        Sounds_Impact: ENTITY_ZOMBIE_REMEDY-1-2-0
+        Sounds_Victim: ENTITY_ZOMBIE_METAL-1-2-0
+RaygunMk2:
+    Item_Information:
+        Item_Name: "&cRaygun Mk.2"
+        Item_Type: 352
+        Item_Lore: "&cUpgraded RayGun |This is a very high damage."
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Delay_Between_Shots: 6
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Subtype: 50-1-NONE-3        
+        Projectile_Speed: 50
+        Projectile_Damage: 60
+        Sounds_Shoot: BLOCK_NOTE_SNARE-1-1-3
+        Projectile_Incendiary:
+            Enable: false
+            Duration: 150
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 2
+        Delay_Between_Shots_In_Burst: 1
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Reload:
+        Enable: true
+        Reload_Amount: 50
+        Reload_Duration: 40
+        Sounds_Reloading: ENTITY_ZOMBIE_UNFECT-1-1-10,ENTITY_ZOMBIE_UNFECT-1-0-20,ENTITY_ZOMBIE_INFECT-1-1-35
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK-BREAK-152
+        Particle_Hit: block_break-152, block_break-152, FLAMES-10
+        Particle_Impact_Anything: block_break-152, block_break-152
+    Hit_Events:
+        Enable: true
+        Sounds_Impact: ENTITY_ZOMBIE_REMEDY-1-2-0
+        Sounds_Victim: ENTITY_ZOMBIE_METAL-1-2-0
+SoulRaygunMk2:
+    Item_Information:
+        Item_Name: "&cRaygun Mk.2 &b&o- Soulbound"
+        Item_Type: 352
+        Item_Lore: "&cUpgraded RayGun |This is a very high damage. | &cSoulbounded"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Delay_Between_Shots: 6
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Subtype: 50-1-NONE-3        
+        Projectile_Speed: 50
+        Projectile_Damage: 25
+        Sounds_Shoot: BLOCK_NOTE_SNARE-1-1-3
+        Projectile_Incendiary:
+            Enable: false
+            Duration: 150
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 2
+        Delay_Between_Shots_In_Burst: 1
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+    Reload:
+        Enable: true
+        Reload_Amount: 50
+        Reload_Duration: 40
+        Sounds_Reloading: ENTITY_ZOMBIE_UNFECT-1-1-10,ENTITY_ZOMBIE_UNFECT-1-0-20,ENTITY_ZOMBIE_INFECT-1-1-35
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK-BREAK-152
+        Particle_Hit: block_break-152, block_break-152, FLAMES-10
+        Particle_Impact_Anything: block_break-152, block_break-152
+    Hit_Events:
+        Enable: true
+        Sounds_Impact: ENTITY_ZOMBIE_REMEDY-1-2-0
+        Sounds_Victim: ENTITY_ZOMBIE_METAL-1-2-0
+Firework:
+    Item_Information:
+        Item_Name: "&cFirework &fLaucnher"
+        Item_Type: 318
+        Item_Lore: "&7Armor penetrating rounds|Damage: 3 to all armour types.|&3Tier 5"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Delay_Between_Shots: 3
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Damage: 50
+        Projectile_Speed: 1000
+        Sounds_Shoot: ENTITY_ARROW_SHOOT-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+    Reload:
+        Enable: true
+        Reload_Amount: 50
+        Reload_Duration: 100
+        Sounds_Reloading: BLOCK_WATER-6-2-0,ENTITY_PIG_WALK-1-2-0
+    Explosions:
+        Enable: false
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Damage_Multiplier: 10
+        On_Impact_With_Anything: true
+        Enable_Owner_Immunity: true
+        Knockback: 0
+        Sounds_Explode: 
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Shooter: Heal-3-1
+        Potion_Effect_Victim: WITHER-50-50
+    Fireworks:
+        Enable: true
+        Firework_Hit: BALL-TRUE-TRUE-0-0-0
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: BLOCK_NOTE_HAT-1-2-0
+Minigun:
+    Item_Information:
+        Item_Name: "&eMinigun"
+        Item_Type: 106
+        Item_Lore: "&eFully automatic with high power.|&eEffective at low range.|&eControls are inverted."
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 1
+        Projectile_Amount: 4
+        Projectile_Type: snowball
+        Projectile_Speed: 50
+        Projectile_Damage: 10
+        Bullet_Spread: 1
+        Sounds_Shoot: ENTITY_CREEPER_DEATH-1-2-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 1
+    Reload:
+        Enable: true
+        Reload_Amount: 200
+        Reload_Duration: 100
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: BLOCK_FIRE_IGNITE-1-1-4,BLOCK_DOOR_OPEN-1-2-6,BLOCK_FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,BLOCK_DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 1
+        Sound_Close: BLOCK_PISTON_RETRACT-1-2-0,BLOCK_PISTON_RETRACT-1-2-3
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Delay: 5
+        Explosion_Radius: 1
+        On_Impact_With_Anything: true
+        Enable_Owner_Immunity: true
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Crafting:
+        Enable: true
+        Shaped: false
+        Ingredients: 383~67,106
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+FireflyFlamethrower:
+    Item_Information:
+        Item_Name: "&eFirefly Flamethrower"
+        Item_Type: 414
+        Item_Lore: "&8Category:&7 Legend |&8Type:&7 Flamethrower |&8Damage: &72 |&8Clip Size: &7100 |&8Ammo: &7Infinite"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Delay_Between_Shots: 0
+        Remove_Arrows_On_Impact: true
+        Projectile_Amount: 12
+        Bullet_Spread: 2
+        Projectile_Type: egg
+        Projectile_Flames: true
+        Projectile_Speed: 15
+        Projectile_Damage: 2
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 850
+        Reset_Fall_Distance: true
+        Sounds_Shoot: BLOCK_FIRE_IGNITE-2-2-0,ENTITY_GHAST_SHOOT-2-1-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 2
+        Delay_Between_Shots_In_Burst: 3
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+    Reload:
+        Enable: true
+        Reload_Amount: 100
+        Reload_Duration: 90
+        Sounds_Reloading: BLOCK_FIRE_IGNITE-1-1-4,BLOCK_DOOR_OPEN-1-2-6,BLOCK_FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,BLOCK_EDOOR_CLOSE-1-2-38
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: flames-1,BLOCK_BREAK-51
+        Particle_Player_Hit: flames-1,BLOCK_BREAK-51
+        Particle_Hit: BLOCK_BREAK-51
+        Particle_Impact_Anything: BLOCK_BREAK-51
+
+Minigun:
+    Item_Information:
+        Item_Name: "&2Minigun"
+        Item_Type: 2267
+        Item_Lore: "&cFast fire rate"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 50
+        Projectile_Damage: 2
+        Bullet_Spread: 1
+        Sounds_Shoot: ENTITY_IRONGOLEM_HIT-1-2-0,ENTITY_SKELETON_HURT-1-2-0,ENTITY_ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: false
+        Bullet_Spread: 1
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 5
+        Delay_Between_Shots_In_Burst: 5
+    Reload:
+        Enable: true
+        Reload_Amount: 400
+        Reload_Duration: 100
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: BLOCK_FIRE_IGNITE-1-1-4,BLOCK_DOOR_OPEN-1-2-6,BLOCK_FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,BLOCK_DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 1
+        Sound_Close: BLOCK_PISTON_RETRACT-1-2-0,BLOCK_PISTON_RETRACT-1-2-3
+    Abilities:
+        Knockback: 2
+        Death_No_Drop: true
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+
+Flame:
+    Item_Information:
+        Item_Name: "&eFlameThrower"
+        Item_Type: 2260
+        Item_Lore: "&eCook your enemies!"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 0
+        Projectile_Amount: 10
+        Projectile_Type: snowball
+        Projectile_Speed: 30
+        Projectile_Damage: 1
+        Bullet_Spread: 1
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 200
+        Sounds_Shoot: BLOCK_FIRE_IGNITE-2-2-38,ENTITY_GHAST_SHOOT-2-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 300
+        Reload_Duration: 45
+        Sounds_Reloading: ITEM_BREAK-2-1-0, BLOCK_PISTON_RETRACT-1-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: flames-3
+        Particle_Impact_Anything: BLOCK_BREAK-51
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 1
+        Delay_Between_Shots_In_Burst: 2
+    Firearm_Action:
+        Type: break
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: BLOCK_PISTON_RETRACT-1-2-0,BLOCK_PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+
+EasterDeagle:
+    Item_Information:
+        Item_Name: "&dEaster &aDeagle"
+        Item_Type: 359
+        Item_Lore: "&eDual pistols.|&eLeft/right click to shoot"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Dual_Wield: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 2
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 40
+        Projectile_Damage: 21
+        Bullet_Spread: 1
+        Sounds_Shoot: ENTITY_ZOMBIE_ATTACK_DOOR_WOOD-1-2-0,ENTITY_ZOMBIE_ATTACK_DOOR_WOOD-1-0-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.75
+    Reload:
+        Enable: true
+        Reload_Amount: 7
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: UI_BUTTON_CLICK-1-1-0
+        Sounds_Reloading: BLOCK_WOODEN_DOOR_OPEN-1-2-4,BLOCK_WOODEN_DOOR_OPEN-1-2-8,BLOCK_WOODEN_DOOR_CLOSE-1-2-23,BLOCK_WOODEN_DOOR_CLOSE-1-2-38
+        Dual_Wield:
+            Single_Reload_Duration: 25
+            Sounds_Single_Reload: BLOCK_WOODEN_DOOR_OPEN-1-2-4,BLOCK_WOODEN_DOOR_CLOSE-1-2-23
+            Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Backstab:
+        Enable: true
+        Bonus_Damage: 2
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+    Particles:
+        Enable: true
+        Particle_Backstab: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_SKELETON_SHOOT-1-2-0
+Isowither:
+    Item_Information:
+        Item_Name: "&bIsowither"
+        Item_Type: 2259
+        Item_Lore: "&eWither your enemies"
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 1000
+        Projectile_Damage: 80
+        Sounds_Shoot: ENTITY_BLAZE_HURT-1-1-0,ENTITY_GENERIC_EXPLODE-1-2-0
+    Reload:
+        Enable: true
+        Starting_Amount: 0
+        Reload_Amount: 5
+        Reload_Bullets_Individually: true
+        Reload_Duration: 10
+        Sounds_Reloading:  BLOCK_NOTE_HAT-1-1-0
+    Firearm_Action:
+        Type: bolt
+        Open_Duration: 8
+        Close_Duration: 7
+        Close_Shoot_Delay: 6
+        Sound_Open:  BLOCK_NOTE_HAT-1-0-0,BLOCK_PISTON_CONTRACT-1-2-2
+        Sound_Close: BLOCK_PISTON_EXTEND-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 40
+        Sounds_Shooter:  BLOCK_NOTE_HARP-1-2-0
+        Sounds_Victim: ENTITY_VILLAGER_DEATH-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 3
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-1
+        Particle_Terrain: true
+    Fireworks:
+        Enable: true
+        Firework_Headshot: STAR-TRUE-TRUE-250-0-0
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom:  BLOCK_NOTE_HAT-1-2-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Damage_Multiplier: 75
+        On_Impact_With_Anything: true
+        Enable_Owner_Immunity: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_SKELETON_SHOOT-1-2-0
+HMS:
+    Item_Information:
+        Item_Name: "&bHeat Seeking Missile"
+        Item_Type: 401
+        Item_Lore: "&eMissile that'll follow your enemies!"
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Bullet_Spread: 2
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 5
+        Projectile_Damage: 350
+        Sounds_Shoot: ENTITY_GHAST_DEATH-1-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Bullets_Individually: true
+        Reload_Duration: 120
+        Sounds_Reloading:  BLOCK_NOTE_HAT-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 3
+        Death_No_Drop: true
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Damage_Multiplier: 75
+        On_Impact_With_Anything: true
+        Enable_Owner_Immunity: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_SKELETON_SHOOT-1-2-0
+EHMS:
+    Item_Information:
+        Item_Name: "&bE Heat Seeking Missile"
+        Item_Type: 401
+        Item_Lore: "&eMissile that'll follow your enemies!"
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Delay_Between_Shots: 20
+        Projectile_Type: fireball
+        Bullet_Spread: 2
+        Projectile_Speed: 2
+        Projectile_Damage: 5000
+        Sounds_Shoot: ENTITY_BLAZE_HURT-1-1-0,ENTITY_GENERIC_EXPLODE-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 1000000
+        Reload_Bullets_Individually: true
+        Reload_Duration: 120
+        Sounds_Reloading:  BLOCK_NOTE_HAT-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 3
+        Death_No_Drop: true
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Damage_Multiplier: 0
+        On_Impact_With_Anything: true
+        Enable_Owner_Immunity: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_SKELETON_SHOOT-1-2-0
+HeroPig:
+    Item_Information:
+        Item_Name: "&aHero &dPig"
+        Item_Type: 320
+        Item_Lore: "&eSpawn Pigs, to save your life!"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Dual_Wield: true
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 50
+        Projectile_Damage: 5
+        Bullet_Spread: 0.1
+        Sounds_Shoot: ENTITY_IRONGOLEM_HIT-1-2-0,ENTITY_SKELETON_HURT-1-2-0,ENTITY_ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: false
+        No_Recoil: true
+        Bullet_Spread: 0.0
+    Dual_Wield:
+        Single_Reload_Duration: 600
+        Sounds_Single_Reload: BLOCK_DOOR_OPEN-1-1-5,BLOCK_DOOR_OPEN-4-2-20,BLOCK_DOOR_OPEN-1-1-35
+        Sounds_Shoot_With_No_Ammo: CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 1400
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: BLOCK_FIRE_IGNITE-1-1-4,BLOCK_DOOR_OPEN-1-2-6,BLOCK_FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,BLOCK_DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 100
+        Close_Shoot_Delay: 400
+        Sound_Close: BLOCK_PISTON_RETRACT-1-2-0,BLOCK_PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_ENDERMAN_SCREAM-1-2-0
+    Damage_Based_On_Flight_Time:
+        Enable: true
+        Bonus_Damage_Per_Tick: -10
+    Spawn_Entity_On_Hit:
+        Enable: true
+        Chance: 100
+        Mob_Name: WTF
+        EntityType_Baby_Explode_Amount: Pig-true-true-20,Zombie-true-true-20
+        Make_Entities_Target_Victim: true
+        Timed_Death: 40
+        Entity_Disable_Drops: true
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Shooter: CONFUSION-80-3,ABSORPTION-50-3,INVISIBILITY-20-3
+        Potion_Effect_Victim: JUMP-60-4,REGENERATION-40-3,SLOW-60-3
+        Activation: shoot
+        Potion_Effect_Shooter: HARM-0-1,HEAL-0-1
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: smoke
+        Particle_Terrain: true
+        Particle_Impact_Anything: block_break-wool
+        Particle_Hit: flames-3
+        Particle_Headshot: lightning
+        Particle_Critical: flames-6,smoke
+        Particle_Backstab: flames-6,block_break-wool
+    Abilities:
+        Death_No_Drop: true
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+        Hurt_Effect: true
+Poison:
+    Item_Information:
+        Item_Name: "&aPoison&22000"
+        Skip_Name_Check: false
+        Item_Type: 165
+        Item_Lore: "&cPoison Custom Gun"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 100
+        Sounds_Shoot: ENTITY_WITHER_SHOOT-1-0-0,ENTITY_FIRE_EXTINGUISH-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Reload:
+        Enable: true
+        Starting_Amount: 2
+        Reload_Amount: 2
+        Take_Ammo_On_Reload: True
+        Reload_Bullets_Individually: false
+        Reload_Duration: 100
+        Sounds_Reloading: BLOCK_NOTE_HAT-1-1-0
+    Abilities:
+        No_Fall_Damage: true
+        Death_No_Drop: true
+    Firearm_Action:
+        Type: bolt
+        Open_Duration: 8
+        Close_Duration: 10
+        Close_Shoot_Delay: 10
+        Sound_Open: BLOCK_NOTE_HAT-1-0-0,BLOCK_PISTON_RETRACT-1-2-2
+        Sound_Close: BLOCK_PISTON_EXTEND-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 120
+        Sounds_Shooter: BLOCK_NOTE_BASS-1-2-0
+        Sounds_Victim: HURT-1-1-0
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: BLOCK_NOTE_HAT-1-2-0
+    Hit_Events:  
+        Enable: true
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+
+Test123:
+    Item_Information:
+        Item_Name: "&eTest123"
+        Item_Type: 276
+        Item_Lore: "&bExcalbiur III"
+        Melee_Mode: true
+        Sounds_Acquired: ENTITY_ARROW_SHOOT-1-0-0
+        Attachments:
+            Type: main
+            Info: "Test"
+            Toggle_Delay: 5
+            Sounds_Toggle: BLOCK_NOTE_HAT-1-2-0
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Delay_Between_Shots: 0
+        Projectile_Damage: 45
+        Sounds_Shoot: HURT_FLESH-1-0-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: world,4,0,-204,-21,20,-250,true
+        Message_Of_Denial: You cannot shoot in this area
+    Abilities:
+        Death_No_Drop: true
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 250
+        Chance: 100
+        Message_Shooter: "&aCRITICAL HIT!"
+        Sounds_Shooter: BLOCK_NOTE_BASS-2-2-0,BLOCK_NOTE_HAT-2-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-55
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Shooter: SPEED-9000-3,INCREASE_DAMAGE-900-3,HEALTH_BOOST-1000-10,REGENERATION-1000-5
+Olympia:
+    Item_Information:
+        Item_Name: "&eOlympia"
+        Item_Type: 2261
+        Enchantment_To_Check: DURABILITY-5
+        Item_Lore: "&eDouble-barreled shotgun.|&eDeadly at close range.|&eIneffective at longer ranges.|&eFires incendiary ammo."
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 3
+        Recoil_Amount: 15
+        Projectile_Amount: 8
+        Projectile_Type: egg
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 30
+        Projectile_Damage: 5
+        Projectile_Flames: true
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 80
+        Bullet_Spread: 1
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_ZOMBIE_WOOD-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Reload_Bullets_Individually: true
+        Reload_Duration: 15
+        Sounds_Reloading: BLOCK_NOTE_HAT-1-1-0,BLOCK_NOTE_SNARE-1-6-1
+    Firearm_Action:
+        Type: break
+        Open_Duration: 10
+        Close_Duration: 15
+        Sound_Open: BLOCK_DOOR_OPEN-1-2-0
+        Sound_Close: BLOCK_DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+    Damage_Based_On_Flight_Time:
+        Enable: true
+        Bonus_Damage_Per_Tick: -1
+        Maximum_Damage: -4
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: FLAMES-1
+        Particle_Impact_Anything: BLOCK_BREAK-51
+Pigger:
+    Item_Information:
+        Item_Name: "&ePigger"
+        Item_Type: 377
+        Enchantment_To_Check: DURABILITY-5
+        Item_Lore: "&eGoes through armor!"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 
+        Projectile_Amount: 3
+        Projectile_Type: egg
+        Projectile_Speed: 10
+        Projectile_Damage: 20
+        Bullet_Spread: 5
+        Sounds_Shoot: BLOCK_WOOD_HIT-1-2-0
+        Remove_Bullet_Drop: true
+        Removal_Or_Drag_Delay: 14-true
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 332
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_BASS-1-2-0
+        Sounds_Shoot_With_No_Ammo: BLOCK_NOTE_HAT-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 75
+        Reload_Duration: 3
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: BLOCK_FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,BLOCK_FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+        Take_Ammo_On_Reload: true
+        Take_Ammo_Per_Shot: true
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 5
+        Delay_Between_Shots_In_Burst: 1
+    Headshot:
+        Enable: true
+        Bonus_Damage: 1
+        Sounds_Shooter: BLOCK_NOTE_BASS-1-2-0
+        Sounds_Victim: HURT-1-1-0
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Sound_Close: BLOCK_PISTON_RETRACT-1-2-0,BLOCK_PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
